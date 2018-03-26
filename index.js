@@ -271,7 +271,7 @@ class CoSelect {
         errLogs: []
     };
 
-    let conditorSession = process.env.CONDITOR_SESSION || this.esConf.index;
+    let conditorSession = process.env.CONDITOR_SESSION || esConf.index;
     this.checkIndex(conditorSession, options, function(err) {
         options.errLogs.push('callback checkIndex, err=' + err);
         return cbBefore(err, options);
