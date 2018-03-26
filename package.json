@@ -1,0 +1,26 @@
+{
+  "name": "co-select",
+  "version": "1.0.0",
+  "description": "Module permettant la génération d'un flux à partir d'une requête elasticSearch",
+  "main": "index.js",
+  "dependencies": {
+    "elasticsearch": "^14.2.1",
+    "ioredis": "^3.2.2",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conditor-project/co-select.git"
+  },
+  "author": "Conditor",
+  "license": "SEE LICENSE IN Licence.txt",
+  "bugs": {
+    "url": "https://github.com/conditor-project/co-select/issues"
+  },
+  "homepage": "https://github.com/conditor-project/co-select#readme"
+}
