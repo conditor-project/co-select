@@ -98,7 +98,7 @@ class CoSelect {
         q:'*'
       });
 
-      esStream.pipe(process.stdout);
+      //esStream.pipe(process.stdout);
 
       esStream.on('data',(chunk)=>{
         
