@@ -8,6 +8,7 @@ const
   testData = require('./dataset/in/test.json'),
   badData = require('./dataset/in/badDocs.json'),
   baseRequest = require('co-config/base_request.json'),
+  esMapping = require('co-config/mapping.json'),
   chai = require('chai'),
   expect = chai.expect,
   _ = require('lodash'),
@@ -36,7 +37,7 @@ let checkAndDeleteIndex = function (cbCheck) {
     if (errorExists && errorExists.status===404) {
       console.log(`l index ${esConf.index} n existe pas et est créé.`);
     }
-    esClient.indices.create({index: esConf.index}, function (errorCreate, responseCreate) {
+    esClient.indices.create({index: esConf.index,body:esMapping}, function (errorCreate, responseCreate) {
       if (errorCreate) {
         console.error(`Problème dans la creation de l'index ${esConf.index}\n${errorCreate.message}`);
       }
@@ -46,7 +47,7 @@ let checkAndDeleteIndex = function (cbCheck) {
 };
 
 
-let insertTestCorpus = function(done){
+ function insertTestCorpus (done){
   
   let pathCorpus =path.join(__dirname,'dataset','in','doc100.json');
   let jsonObjects;
@@ -64,14 +65,15 @@ let insertTestCorpus = function(done){
   for (let i = 0; i < jsonObjects.length; i++) {
     jsonObject = JSON.parse(jsonObjects[i]);  
     body.push(options);
-    body.push({jsonObject,refresh:true});
+    body.push({jsonObject});
   }
 
   esClient.bulk({body:body})
   .catch(err=>{
     if (err) { done(err)}
   })
-  .then(()=>{
+  .then((response)=>{
+    //console.log(response);
     done();
   });
 
@@ -139,9 +141,10 @@ describe(pkg.name + '/index.js', function () {
   });
 
   it('devrait générer les docObjects correspondant aux docObjects insérés en base', function(done) {
-    const nbExpectedDocs = 97;
+    const nbExpectedDocs = 100;
 
     // vérifie qu'en out, les fichiers JSON contenant les docObjects ont bien été générés
+    setTimeout(function(){
     glob(outDir + '/**/*.json', (err, files)=> {
         //if (err) { return done(err);}
         expect(files.length,
@@ -164,6 +167,7 @@ describe(pkg.name + '/index.js', function () {
         done();
 
     }); //fin glob
+  },1000);
 });
 
 
