@@ -22,7 +22,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "Mocha"
+    "test": "mocha"
   },
   "directories": {
     "test": "test"
