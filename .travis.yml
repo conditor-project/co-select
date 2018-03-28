@@ -1,0 +1,21 @@
+language: node_js
+
+sudo: true
+addons:
+  apt:
+    packages:
+      - oracle-java8-set-default
+before_script:
+  - sleep 10
+node_js:
+  - "8"
+before_install:
+  - curl -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.1.1.deb && sudo dpkg -i --force-confnew elasticsearch-6.1.1.deb && sudo service elasticsearch start
+notifications:
+  email:
+    recipients:
+      - claude.niederlender@inist.fr
+      - jean-baptiste.genicot@inist.fr
+      - conditordev@gmail.com
+    on_success: change
+on_failure: always

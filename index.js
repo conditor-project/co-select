@@ -32,6 +32,7 @@ class CoSelect {
     this.redisKey = this.CONDITOR_SESSION + ":co-select";
     this.id = 0 ;
     this.endFlag = false;
+    this.drain = false;
 
     this.esClient = new es.Client({
       host: esConf.host,
@@ -71,7 +72,6 @@ class CoSelect {
     Promise.try(()=>{
       return this.pubClient.disconnect();
     })
-    
     .then(()=>{
       return Promise.try(()=>{
         return this.redisClient.disconnect();
@@ -82,108 +82,70 @@ class CoSelect {
     });
   }
 
-  pushDocObject(docObject,blocContainer){
-    return Promise.try(()=>{
-      let arrayPathFile = [];
-      let blocContain = {};
-      _.each(blocContainer.bloc,(pathFile)=>{
-        let newDocObject;
-        newDocObject = _.cloneDeep(docObject);
-        newDocObject.id = this.id;
-        newDocObject.path = pathFile;
-        //console.log(this.id);
-        newDocObject.source = docObject.source;
-        newDocObject.ingestId = this.CONDITOR_SESSION;
-        this.id++;
-        arrayPathFile.push(newDocObject);
-      });
-      blocContain.bloc = arrayPathFile;
-      this.blocFormate.push(blocContain);
-    });
-  }
-
   streamInit(docObject,next){
 
     return Promise.try(()=>{
       let bloc;
       let esStream;
       let listing = [];
-      let listPath="";
+      let doc;
 
       esStream = new ElasticSearchScrollStream(this.esClient,{
-        index:this.esConf.index,
-        type:this.esConf.type,
-        scroll:'10s',
+        index:esConf.index,
+        type:esConf.type,
+        scroll:'100s',
         size:'100',
         q:'*'
       });
 
-      esStream.stdout.on('data',(chunk)=>{
-        //console.log('data');
+      esStream.pipe(process.stdout);
+
+      esStream.on('data',(chunk)=>{
+        
         let blocContainer = {};
-        listPath+=chunk.toString();
-        _.each(listPath.substring(0,listPath.lastIndexOf("\n")).split("\n"),(pathXML)=>{
-          if (pathXML.trim()!=="") { listing.push(pathXML.trim()); }
-        });
-        listPath = listPath.substring(listPath.lastIndexOf("\n"),listPath.length);
-        //console.log('data listing.length : '+listing.length);
-        while (listing.length>100){
+        doc=JSON.parse(chunk);
+        listing.push(doc);
+        if (listing.length>=100){
           bloc=listing.splice(0,100);
           _.shuffle(bloc);
           blocContainer.bloc = bloc;
-          this.pushDocObject(docObject,blocContainer);
+          this.blocFormate.push(blocContainer);
         }
-        //console.log('data listing.length post while : '+listing.length);
       });
 
-      esStream.stderr.on('data',(chunk)=>{
+      esStream.on('error',(chunk)=>{
         let err = new Error('Erreur stderr esStream(co-select): '+chunk);
         next(err);
       });
 
-      esStream.stdout.on("end",(chunk)=>{
+      esStream.on("end",(chunk)=>{
         //console.log('end');
         let blocContainer={};
         this.endFlag = true;
-        if (chunk) { listPath+=chunk.toString();}
-        if (listPath.trim()!==""){
-          _.each(listPath.split("\n"),(pathXML)=>{
-            if (pathXML.trim()!=="") {listing.push(pathXML.trim());}
-          });
-        }
-        //console.log('end listing.length : '+listing.length);
-        while (listing.length>100){
-          bloc=listing.splice(0,100);
-          //console.log('end bloc.length in while: '+bloc.length);
-          _.shuffle(bloc);
-          blocContainer.bloc = bloc;
-          this.pushDocObject(docObject,blocContainer);
+        if (chunk) { 
+          doc=JSON.parse(chunk);
+          listing.push(doc);
         }
         //console.log('end listing.length post while: '+listing.length);
         if (listing.length>0){
           bloc=listing.splice(0,listing.length);
           //console.log('end bloc.length post while: '+bloc.length);         
-          _.shuffle(bloc);
+          // _.shuffle(bloc);
           blocContainer.bloc = bloc;
-          this.pushDocObject(docObject,blocContainer);
+          this.blocFormate.push(blocContainer);
         }
         //console.log('end listing.length post flush : '+listing.length);
+        
       });
     });
   }
 
   doTheJob(docObject, next) {
 
-    fse.ensureDir(docObject.corpusRoot,function (error){
-      if (error) {
-         let err = new Error('Erreur de création d\'arborescence : '+error);
-         next(err); 
-        }
-    });
-
     this.blocFormate = async.queue(this.sendFlux.bind(this),8);
 
     this.blocFormate.drain = () => {
+      this.drain = true;
       if (this.endFlag){
         let error = new Error('Le premier docObject passe en erreur afin de ne pas polluer la chaine.');
         docObject.error = 'Le premier docObject passe en erreur afin de ne pas polluer la chaine.';
@@ -253,9 +215,8 @@ class CoSelect {
 
   
   finalJob(docObjects,done){
-    Promise.try(()=>{
-      return this.disconnect();
-    })
+    
+    this.disconnect
     .catch(err=>{
       done(err);
     })
@@ -289,7 +250,6 @@ class CoSelect {
       file
     );
   }
-
 }
 
 module.exports = new CoSelect();
