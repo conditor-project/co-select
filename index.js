@@ -69,7 +69,7 @@ class CoSelect {
   
 
   disconnect(){
-    Promise.try(()=>{
+    return Promise.try(()=>{
       return this.pubClient.disconnect();
     })
     .then(()=>{
@@ -216,7 +216,7 @@ class CoSelect {
   
   finalJob(docObjects,done){
     
-    this.disconnect
+    this.disconnect()
     .catch(err=>{
       done(err);
     })
