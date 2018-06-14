@@ -179,17 +179,12 @@ class CoSelect {
           _.each(blocContainer.bloc,(docObject)=>{
             //console.log(docObject.id);
             constructedString+=JSON.stringify(docObject) + "\n";
-          })
-
-          let writeStream = fse.createWriteStream(myDocObjectFilePath);
-
-          writeStream.on('error',(error)=>{
-            let err = new Error('Erreur de flux d\'ecriture : '+error);
-            callback(err);
           });
-         
-          writeStream.write(constructedString);
-          writeStream.end();
+          try {
+            fse.writeFileSync(myDocObjectFilePath,constructedString);
+          } catch(err){
+            callback(new Error('Erreur de flux d\'ecriture : '+err));
+          }
         });
       })
       .catch(err=>{
