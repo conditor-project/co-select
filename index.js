@@ -62,15 +62,13 @@ class CoSelect {
   disconnect () {
     return Promise.try(() => {
       return this.pubClient.disconnect();
-    })
-      .then(() => {
-        return Promise.try(() => {
-          return this.redisClient.disconnect();
-        });
-      })
-      .catch(() => {
-        throw (new Error('Erreur de fermeture ioredis.'));
+    }).then(() => {
+      return Promise.try(() => {
+        return this.redisClient.disconnect();
       });
+    }).catch(() => {
+      throw (new Error('Erreur de fermeture ioredis.'));
+    });
   }
 
   streamInit (docObject, next) {
@@ -133,11 +131,10 @@ class CoSelect {
       }
     };
 
-    this.streamInit(docObject, next)
-      .catch(function (error) {
-        let err = new Error('Erreur de génération du flux : ' + error);
-        next(err);
-      });
+    this.streamInit(docObject, next).catch(function (error) {
+      let err = new Error('Erreur de génération du flux : ' + error);
+      next(err);
+    });
   }
 
   sendFlux (blocContainer, callback) {
