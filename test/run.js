@@ -1,12 +1,10 @@
 /* eslint-env mocha */
+/* eslint-disable no-unused-expressions */
 'use strict';
 const fse = require('fs-extra');
 const rewire = require('rewire');
 const pkg = require('../package.json');
 const business = rewire('../index.js');
-const testData = require('./dataset/in/test.json');
-const badData = require('./dataset/in/badDocs.json');
-const baseRequest = require('co-config/base_request.json');
 const esMapping = require('co-config/mapping.json');
 const chai = require('chai');
 const expect = chai.expect;
@@ -48,17 +46,14 @@ let checkAndDeleteIndex = function (cbCheck) {
 function insertTestCorpus (done) {
   let pathCorpus = path.join(__dirname, 'dataset', 'in', 'doc100.json');
   let jsonObjects;
-  let nbDocsFound;
   let jsonObject;
   let body = [];
   let options = {index: {_index: esConf.index, _type: esConf.type}};
-  let doc;
 
   jsonObjects = (fse.readFileSync(pathCorpus, {
     encoding: 'utf8'
   }).trim()).split('\n');
   _.compact(jsonObjects);
-  nbDocsFound = jsonObjects.length;
   for (let i = 0; i < jsonObjects.length; i++) {
     jsonObject = JSON.parse(jsonObjects[i]);
     body.push(options);
@@ -130,41 +125,32 @@ describe(pkg.name + '/index.js', function () {
     const nbExpectedDocs = 100;
 
     // vérifie qu'en out, les fichiers JSON contenant les docObjects ont bien été générés
-    setTimeout(function () {
-      glob(outDir + '/**/*.json', (err, files) => {
-        if (err) { return done(err);}
-        expect(files.length,
-          'les ' + nbExpectedDocs + ' documents du jeu de test doivent être dans un seul fichier, non pas ' + files.length).to.equal(1);
+    glob(outDir + '/**/*.json', (err, files) => {
+      if (err) return done(err);
+      expect(files.length, 'les ' + nbExpectedDocs + ' documents du jeu de test doivent être dans un seul fichier, non pas ' + files.length).to.equal(1);
 
-        // parcours des fichiers trouvés (fichiers pouvant contenir 100 docs
-        let nbDocsFound = 0;
-        let jsonObjects;
-        let jsonObject;
-        files.forEach(function (file) {
-          jsonObjects = (fse.readFileSync(file, {
-            encoding: 'utf8'
-          }).trim()).split('\n');
-          nbDocsFound += jsonObjects.length;
-        });
-
-        expect(nbDocsFound,
-          'le jeu de test ' + sessionName + ' devrait contenir ' + nbExpectedDocs + ' documents, et non pas ' + nbDocsFound).to.equal(nbExpectedDocs);
-
-        done();
+      // parcours des fichiers trouvés (fichiers pouvant contenir 100 docs
+      let nbDocsFound = 0;
+      let jsonObjects;
+      files.forEach(function (file) {
+        jsonObjects = (fse.readFileSync(file, {
+          encoding: 'utf8'
+        }).trim()).split('\n');
+        nbDocsFound += jsonObjects.length;
       });
-    }, 1000);
+
+      expect(nbDocsFound, 'le jeu de test ' + sessionName + ' devrait contenir ' + nbExpectedDocs + ' documents, et non pas ' + nbDocsFound).to.equal(nbExpectedDocs);
+
+      done();
+    });
   });
 
   // Méthode finale sensée faire du nettoyage après les tests
-
-  after((done) => {
-    esClient.indices.delete({index: esConf.index}).then(
-      function () {
-        console.log('nettoyage index de test OK');
-        done();
-      });
-    fse.removeSync(outDir);
-    business.disconnect();
-    done();
+  after(() => {
+    return esClient.indices.delete({index: esConf.index}).then(() => {
+      return fse.remove(outDir);
+    }).then(() => {
+      return business.disconnect();
+    });
   });
 });
