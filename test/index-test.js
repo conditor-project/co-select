@@ -6,16 +6,41 @@ const path = require('path');
 const pkg = require('../package.json');
 const coSelect = require('../index.js');
 const expect = require('chai').expect;
-const sinon = require('sinon');
-const responseElasticsearch = require('./responseElasticsearch.json');
-
-const stubElasticsearch = sinon.stub(coSelect.elasticsearchStream.client, 'search').callsFake((options, callback) => {
-  callback(null, responseElasticsearch);
-});
-const stubRedis = sinon.stub(coSelect.pubClient, 'hincrby');
+const elasticsearch = require('elasticsearch');
+const fs = require('fs');
+const esConf = require('co-config/es.js');
+esConf.index = `tests-co-select-${Date.now()}`;
+const esMapping = require('co-config/mapping.json');
+const readline = require('readline');
 
 describe(pkg.name + '/index.js', function () {
   describe('doTheJob', function () {
+    before((done) => {
+      const esClient = elasticsearch.Client();
+      const instream = fs.createReadStream(path.join(__dirname, 'dataset', 'in', 'doc100.json'));
+      const rl = readline.createInterface(instream);
+      const docs = [];
+      const options = {
+        index: {
+          _index: esConf.index,
+          _type: esConf.type
+        }
+      };
+
+      rl.on('line', (doc) => {
+        docs.push(options);
+        const jsonObject = JSON.parse(doc);
+        docs.push({ jsonObject });
+      });
+
+      rl.on('close', () => {
+        esClient.indices.create({ index: esConf.index, body: esMapping })
+          .then(() => esClient.bulk({ body: docs }))
+          .then(() => done())
+          .catch(error => done(error));
+      });
+    });
+
     it('should do the job and do it well', function (done) {
       const docObjectInput = {
         elasticReq: '*',
@@ -27,14 +52,17 @@ describe(pkg.name + '/index.js', function () {
         expect(error.message).to.be.equal('The first docObject goes into error so as not to pollute the processing chain.');
         expect(docObject).to.include.keys('elasticReq');
         expect(docObject).to.include.keys('elasticIndex');
-        expect(stubElasticsearch.called).to.be.true;
-        expect(stubRedis.called).to.be.true;
         done();
       });
     });
+
     after((done) => {
-      fse.removeSync(path.join(__dirname, '/../out'));
-      coSelect.finalJob(null, done);
+      const esClient = elasticsearch.Client();
+      esClient.indices.delete({ index: esConf.index })
+        .then(() => fse.removeSync(path.join(__dirname, '/../out')))
+        .then(() => {
+          coSelect.finalJob(null, done);
+        });
     });
   });
 
