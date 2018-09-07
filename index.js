@@ -9,8 +9,8 @@ const fse = require('fs-extra');
 const uuid = require('uuid');
 const esConf = require('co-config/es.js');
 
-class CoSelect {
-  constructor () {
+const coSelect = {
+  init () {
     this.redisHost = process.env.REDIS_HOST || 'localhost';
     this.redisPort = process.env.REDIS_PORT || 6379;
     this.pubClient = redis.createClient({
@@ -23,7 +23,8 @@ class CoSelect {
     const elasticUrl = esConf.host;
     this.elasticsearchStream = new ElasticsearchStream({ elasticUrl });
     this.elasticseachClient = new elasticsearch.Client({ host: elasticUrl });
-  }
+    return this;
+  },
 
   beforeAnyJob (next) {
     const conditorSession = process.env.CONDITOR_SESSION || esConf.index;
@@ -33,7 +34,7 @@ class CoSelect {
     }).catch(error => {
       next(error);
     });
-  }
+  },
 
   doTheJob (docObject, next) {
     this.elasticsearchStream.elasticIndex = docObject.elasticIndex || esConf.index;
@@ -69,12 +70,12 @@ class CoSelect {
     this.elasticsearchStream.on('error', (error) => {
       next(error, docObject);
     });
-  }
+  },
 
   finalJob (docObjects, done) {
     this.pubClient.quit();
     done();
-  }
+  },
 
   getWhereIWriteMyFiles (file, dirOutOrErr) {
     return path.join(
@@ -87,6 +88,6 @@ class CoSelect {
       file
     );
   }
-}
+};
 
-module.exports = new CoSelect();
+module.exports = coSelect.init();
