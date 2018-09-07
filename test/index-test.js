@@ -9,7 +9,7 @@ const expect = require('chai').expect;
 const elasticsearch = require('elasticsearch');
 const fs = require('fs');
 const esConf = require('co-config/es.js');
-esConf.index = `tests-co-select-${Date.now()}`;
+process.env.CONDITOR_SESSION = `tests-co-select-${Date.now()}`;
 const esMapping = require('co-config/mapping.json');
 const readline = require('readline');
 
