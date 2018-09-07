@@ -9,7 +9,7 @@ const expect = require('chai').expect;
 const elasticsearch = require('elasticsearch');
 const fs = require('fs');
 const esConf = require('co-config/es.js');
-process.env.CONDITOR_SESSION = `tests-co-select-${Date.now()}`;
+esConf.index = `tests-co-select-${Date.now()}`;
 const esMapping = require('co-config/mapping.json');
 const readline = require('readline');
 
@@ -44,7 +44,7 @@ describe(pkg.name + '/index.js', function () {
     it('should do the job and do it well', function (done) {
       const docObjectInput = {
         elasticReq: '*',
-        elasticIndex: 'tests-select'
+        elasticIndex: esConf.index
       };
 
       coSelect.doTheJob(docObjectInput, (error, docObject) => {
