@@ -9,7 +9,6 @@ const sinon = require('sinon');
 const responseElasticsearch = require('./responseElasticsearch.json');
 
 describe(pkg.name + '/lib/elasticsearch-stream.js', function () {
-  this.timeout(0);
   it('should stream the answers of a search elasticsearch', function (done) {
     const elasticsearchStream = new ElasticsearchStream({
       elasticIndex: 'something-in-the-wind'
