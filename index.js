@@ -2,7 +2,6 @@
 
 const ElasticsearchStream = require('./lib/elasticsearch-stream');
 const redis = require('redis');
-const elasticsearch = require('elasticsearch');
 const path = require('path');
 const fs = require('fs');
 const fse = require('fs-extra');
@@ -22,18 +21,7 @@ const coSelect = {
     this.redisKey = this.CONDITOR_SESSION + ':co-select';
     const elasticUrl = esConf.host;
     this.elasticsearchStream = new ElasticsearchStream({ elasticUrl });
-    this.elasticseachClient = new elasticsearch.Client({ host: elasticUrl });
     return this;
-  },
-
-  beforeAnyJob (next) {
-    const conditorSession = process.env.CONDITOR_SESSION || esConf.index;
-    this.elasticseachClient.indices.exists({ index: conditorSession }).then((exist) => {
-      if (!exist) return next(new Error(`index ${conditorSession} doesn't exist`));
-      next();
-    }).catch(error => {
-      next(error);
-    });
   },
 
   doTheJob (docObject, next) {
