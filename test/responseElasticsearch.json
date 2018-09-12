@@ -1,0 +1,6174 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 30,
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "LnDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:37",
+            "title": {
+              "value": "Thienoquinolines as Novel Disruptors of the PKCε/RACK2 Protein-Protein Interaction.",
+              "normalized": "Thienoquinolines as Novel Disruptors of the PKCε/RACK2 Protein-Protein Interaction.",
+              "normalized50": "Thienoquinolines as Novel Disruptors of the PKCε/RACK2 Protein-Protein Interaction."
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Thienoquinolines as Novel Disruptors of the PKCε/RACK2 Protein-Protein Interaction.",
+              "normalized": "Thienoquinolines as Novel Disruptors of the PKCε/RACK2 Protein-Protein Interaction.",
+              "normalized50": "Thienoquinolines as Novel Disruptors of the PKCε/RACK2 Protein-Protein Interaction."
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Rechfeld Florian Gruber Peter Kirchmair Johannes",
+              "normalized": "Rechfeld Florian Gruber Peter Kirchmair Johannes"
+            },
+            "authorFull": {
+              "value": "Rechfeld Florian Gruber Peter Kirchmair Johannes Boehler Markus Hauser Nina Hechenberger Georg Garczarczyk Dorota Lapa Gennady B Preobrazhenskaya Maria N Goekjian Peter Langer Thierry Hofmann Johann",
+              "normalized": "Rechfeld Florian Gruber Peter Kirchmair Johannes Boehler Markus Hauser Nina Hechenberger Georg Garczarczyk Dorota Lapa Gennady B Preobrazhenskaya Maria N Goekjian Peter Langer Thierry Hofmann Johann"
+            },
+            "authorInit": {
+              "value": "Rechfeld F  Gruber P  Kirchmair J",
+              "normalized": "Rechfeld F  Gruber P  Kirchmair J"
+            },
+            "issn": {
+              "value": "0022-2623",
+              "normalized": "0022-2623"
+            },
+            "eissn": {
+              "value": "1520-4804",
+              "normalized": "1520-4804"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1021/jm401605c",
+              "normalized": "10.1021/jm401605c"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "24712764",
+              "normalized": "24712764"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "8",
+              "normalized": "8"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "3235-46",
+              "normalized": "3235-46"
+            },
+            "volume": {
+              "value": "57",
+              "normalized": "57"
+            },
+            "idHal": {
+              "value": "hal-00990810",
+              "normalized": "hal-00990810"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "1021729"
+              },
+              {
+                "value": "1021730"
+              },
+              {
+                "value": "1021731"
+              },
+              {
+                "value": "1021732"
+              },
+              {
+                "value": "1021733"
+              },
+              {
+                "value": "1021734"
+              },
+              {
+                "value": "1021735"
+              },
+              {
+                "value": "1021736"
+              },
+              {
+                "value": "1021737"
+              },
+              {
+                "value": "431882"
+              },
+              {
+                "value": "1021738"
+              },
+              {
+                "value": "1021739"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-04-24",
+              "normalized": "2014-04-24"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of Medicinal Chemistry",
+              "normalized": "Journal of Medicinal Chemistry"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": "CO2GLYCO - Chimie Organique2, Glycochimie",
+              "normalized": "CO2GLYCO - Chimie Organique2, Glycochimie"
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00990810.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "rYE8pnLHilBMHZw5ZAlnyT1e1",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:rYE8pnLHilBMHZw5ZAlnyT1e1!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "NnDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:37",
+            "title": {
+              "value": "A typology of the situations of cooperation in supply chains",
+              "normalized": "A typology of the situations of cooperation in supply chains",
+              "normalized50": "A typology of the situations of cooperation in supply chains"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "A typology of the situations of cooperation in supply chains",
+              "normalized": "A typology of the situations of cooperation in supply chains",
+              "normalized50": "A typology of the situations of cooperation in supply chains"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Ming Yue Grabot Bernard Houé Raymond",
+              "normalized": "Ming Yue Grabot Bernard Houé Raymond"
+            },
+            "authorFull": {
+              "value": "Ming Yue Grabot Bernard Houé Raymond",
+              "normalized": "Ming Yue Grabot Bernard Houé Raymond"
+            },
+            "authorInit": {
+              "value": "Ming Y  Grabot B  Houé R",
+              "normalized": "Ming Y  Grabot B  Houé R"
+            },
+            "issn": {
+              "value": "0360-8352",
+              "normalized": "0360-8352"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.cie.2013.10.012",
+              "normalized": "10.1016/j.cie.2013.10.012"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "pp. 56-71",
+              "normalized": "pp. 56-71"
+            },
+            "volume": {
+              "value": "vol. 67",
+              "normalized": "vol. 67"
+            },
+            "idHal": {
+              "value": "hal-00952728",
+              "normalized": "hal-00952728"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "758284"
+              },
+              {
+                "value": "196864"
+              },
+              {
+                "value": "758285"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-01",
+              "normalized": "2014-01"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Computers and Industrial Engineering",
+              "normalized": "Computers and Industrial Engineering"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": "10929",
+              "normalized": "10929"
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00952728.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "nR8sjYB2bZJ6StY_7sUyEfxSN",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:nR8sjYB2bZJ6StY_7sUyEfxSN!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "OXDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:40",
+            "title": {
+              "value": "Isolation, purification and functional characterization of alpha-BnIA from Conus bandanus venom.",
+              "normalized": "Isolation, purification and functional characterization of alpha-BnIA from Conus bandanus venom.",
+              "normalized50": "Isolation, purification and functional characterization of alpha-BnIA from Conus bandanus venom."
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Isolation, purification and functional characterization of alpha-BnIA from Conus bandanus venom.",
+              "normalized": "Isolation, purification and functional characterization of alpha-BnIA from Conus bandanus venom.",
+              "normalized50": "Isolation, purification and functional characterization of alpha-BnIA from Conus bandanus venom."
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Nguyen Bao Le Caer Jean-Pierre Aráoz Romulo",
+              "normalized": "Nguyen Bao Le Caer Jean-Pierre Aráoz Romulo"
+            },
+            "authorFull": {
+              "value": "Nguyen Bao Le Caer Jean-Pierre Aráoz Romulo Thai Robert Lamthanh Hung Benoit Evelyne Molgó Jordi",
+              "normalized": "Nguyen Bao Le Caer Jean-Pierre Aráoz Romulo Thai Robert Lamthanh Hung Benoit Evelyne Molgó Jordi"
+            },
+            "authorInit": {
+              "value": "Nguyen B  Le Caer J-P  Aráoz R",
+              "normalized": "Nguyen B  Le Caer J-P  Aráoz R"
+            },
+            "issn": {
+              "value": "0041-0101",
+              "normalized": "0041-0101"
+            },
+            "eissn": {
+              "value": "0041-0101",
+              "normalized": "0041-0101"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": ""
+            },
+            "hasDoi": false,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "25449095",
+              "normalized": "25449095"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "1551-63",
+              "normalized": "1551-63"
+            },
+            "volume": {
+              "value": "91",
+              "normalized": "91"
+            },
+            "idHal": {
+              "value": "hal-01112222",
+              "normalized": "hal-01112222"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "951201"
+              },
+              {
+                "value": "111331"
+              },
+              {
+                "value": "241044"
+              },
+              {
+                "value": "75006"
+              },
+              {
+                "value": "158283"
+              },
+              {
+                "value": "93826"
+              },
+              {
+                "value": "113225"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-11-30",
+              "normalized": "2014-11-30"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Toxicon",
+              "normalized": "Toxicon"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": "2014159",
+              "normalized": "2014159"
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01112222.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "ZKldwibMPLL6wSEnUKAxZGYCa",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:ZKldwibMPLL6wSEnUKAxZGYCa!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "QXDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:43",
+            "title": {
+              "value": "Trophic resource partitioning within a shorebird community feeding on intertidal mudflat habitats",
+              "normalized": "Trophic resource partitioning within a shorebird community feeding on intertidal mudflat habitats",
+              "normalized50": "Trophic resource partitioning within a shorebird community feeding on intertidal mudflat habitats"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Trophic resource partitioning within a shorebird community feeding on intertidal mudflat habitats",
+              "normalized": "Trophic resource partitioning within a shorebird community feeding on intertidal mudflat habitats",
+              "normalized50": "Trophic resource partitioning within a shorebird community feeding on intertidal mudflat habitats"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Bocher Pierrick Robin Frédéric Kojadinovic Jessica",
+              "normalized": "Bocher Pierrick Robin Frédéric Kojadinovic Jessica"
+            },
+            "authorFull": {
+              "value": "Bocher Pierrick Robin Frédéric Kojadinovic Jessica Delaporte Philippe Rousseau Pierre Christine Dupuy Bustamante Paco",
+              "normalized": "Bocher Pierrick Robin Frédéric Kojadinovic Jessica Delaporte Philippe Rousseau Pierre Christine Dupuy Bustamante Paco"
+            },
+            "authorInit": {
+              "value": "Robin F  Kojadinovic J  Delaporte P",
+              "normalized": "Robin F  Kojadinovic J  Delaporte P"
+            },
+            "issn": {
+              "value": "1385-1101",
+              "normalized": "1385-1101"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.seares.2014.02.011",
+              "normalized": "10.1016/j.seares.2014.02.011"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "115-124",
+              "normalized": "115-124"
+            },
+            "volume": {
+              "value": "92",
+              "normalized": "92"
+            },
+            "idHal": {
+              "value": "hal-01072993",
+              "normalized": "hal-01072993"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "223614"
+              },
+              {
+                "value": "707939"
+              },
+              {
+                "value": "617195"
+              },
+              {
+                "value": "109190"
+              },
+              {
+                "value": "148147"
+              },
+              {
+                "value": "1100516"
+              },
+              {
+                "value": "216455"
+              }
+            ],
+            "orcId": {
+              "value": "0000-0003-3877-9390",
+              "normalized": "0000-0003-3877-9390"
+            },
+            "researcherId": [
+              {
+                "value": "G-5833-2011"
+              }
+            ],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-09-15",
+              "normalized": "2014-09-15"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of Sea Research",
+              "normalized": "Journal of Sea Research"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01072993.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "PW38louFGKf58WBZ78boTLauI",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:PW38louFGKf58WBZ78boTLauI!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "S3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:44",
+            "title": {
+              "value": "Understanding and Modeling of Void Closure Mechanisms in Hot Metal Forming Processes: A Multiscale Approach",
+              "normalized": "Understanding and Modeling of Void Closure Mechanisms in Hot Metal Forming Processes: A Multiscale Approach",
+              "normalized50": "Understanding and Modeling of Void Closure Mechanisms in Hot Metal Forming Processes: A Multiscale Approach"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Understanding and Modeling of Void Closure Mechanisms in Hot Metal Forming Processes: A Multiscale Approach",
+              "normalized": "Understanding and Modeling of Void Closure Mechanisms in Hot Metal Forming Processes: A Multiscale Approach",
+              "normalized50": "Understanding and Modeling of Void Closure Mechanisms in Hot Metal Forming Processes: A Multiscale Approach"
+            },
+            "meetingTitle": {
+              "value": "11th International Conference on Technology of Plasticity, ICTP 2014",
+              "normalized": "11th International Conference on Technology of Plasticity, ICTP 2014"
+            },
+            "author": {
+              "value": "Saby Michel Bernacki Marc Bouchard Pierre-Olivier",
+              "normalized": "Saby Michel Bernacki Marc Bouchard Pierre-Olivier"
+            },
+            "authorFull": {
+              "value": "Saby Michel Bernacki Marc Bouchard Pierre-Olivier",
+              "normalized": "Saby Michel Bernacki Marc Bouchard Pierre-Olivier"
+            },
+            "authorInit": {
+              "value": "Saby M  Bernacki M",
+              "normalized": "Saby M  Bernacki M"
+            },
+            "issn": {
+              "value": ""
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.proeng.2014.09.140",
+              "normalized": "10.1016/j.proeng.2014.09.140"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "137–142",
+              "normalized": "137–142"
+            },
+            "volume": {
+              "value": "81",
+              "normalized": "81"
+            },
+            "idHal": {
+              "value": "hal-01110919",
+              "normalized": "hal-01110919"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "858229"
+              },
+              {
+                "value": "810095"
+              },
+              {
+                "value": "780456"
+              }
+            ],
+            "orcId": {
+              "value": "0000-0002-6677-2850",
+              "normalized": "0000-0002-6677-2850"
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": "Procedia Engineering",
+              "normalized": "Procedia Engineering"
+            },
+            "titreSourceJ": {
+              "value": ""
+            },
+            "typeDocument": [
+              {
+                "value": "COMM"
+              }
+            ],
+            "typeDocumentFlat": [
+              "COMM"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01110919.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Conférence",
+                "raw": "Conférence"
+              }
+            ],
+            "idConditor": "YRNc0jDNRporepDO8nViLW01_",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:YRNc0jDNRporepDO8nViLW01_!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "THDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:44",
+            "title": {
+              "value": "Characterization of a synthetic bioactive polymer by nonlinear optical microscopy",
+              "normalized": "Characterization of a synthetic bioactive polymer by nonlinear optical microscopy",
+              "normalized50": "Characterization of a synthetic bioactive polymer by nonlinear optical microscopy"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Characterization of a synthetic bioactive polymer by nonlinear optical microscopy",
+              "normalized": "Characterization of a synthetic bioactive polymer by nonlinear optical microscopy",
+              "normalized50": "Characterization of a synthetic bioactive polymer by nonlinear optical microscopy"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Djaker Nadia Brustlein S. Rohman Geraldine",
+              "normalized": "Djaker Nadia Brustlein S. Rohman Geraldine"
+            },
+            "authorFull": {
+              "value": "Djaker Nadia Brustlein S. Rohman Geraldine Huot Stéphane Lamy De La Chapelle Marc MIGONNEY Véronique",
+              "normalized": "Djaker Nadia Brustlein S. Rohman Geraldine Huot Stéphane Lamy De La Chapelle Marc MIGONNEY Véronique"
+            },
+            "authorInit": {
+              "value": "Djaker N  Brustlein S  Rohman G",
+              "normalized": "Djaker N  Brustlein S  Rohman G"
+            },
+            "issn": {
+              "value": "2156-7085",
+              "normalized": "2156-7085"
+            },
+            "eissn": {
+              "value": "2156-7085",
+              "normalized": "2156-7085"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1364/BOE.5.000149",
+              "normalized": "10.1364/BOE.5.000149"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "1",
+              "normalized": "1"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "149-157",
+              "normalized": "149-157"
+            },
+            "volume": {
+              "value": "5",
+              "normalized": "5"
+            },
+            "idHal": {
+              "value": "hal-00974582",
+              "normalized": "hal-00974582"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "902033"
+              },
+              {
+                "value": "124686"
+              },
+              {
+                "value": "431871"
+              },
+              {
+                "value": "1408984"
+              },
+              {
+                "value": "1291380"
+              },
+              {
+                "value": "896925"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Biomedical optics express",
+              "normalized": "Biomedical optics express"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00974582.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "pXD8fc0PeBtm0vdx_rdBfaCls",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:pXD8fc0PeBtm0vdx_rdBfaCls!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "U3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:46",
+            "title": {
+              "value": "Parasite-induced alteration of plastic response to predation threat: increased refuge use but lower food intake in Gammarus pulex infected with the acanothocephalan Pomphorhynchus laevis.",
+              "normalized": "Parasite-induced alteration of plastic response to predation threat: increased refuge use but lower food intake in Gammarus pulex infected with the acanothocephalan Pomphorhynchus laevis.",
+              "normalized50": "Parasite-induced alteration of plastic response to predation threat: increased refuge use but lower food intake in Gammarus pulex infected with the acanothocephalan Pomphorhynchus laevis."
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Parasite-induced alteration of plastic response to predation threat: increased refuge use but lower food intake in Gammarus pulex infected with the acanothocephalan Pomphorhynchus laevis.",
+              "normalized": "Parasite-induced alteration of plastic response to predation threat: increased refuge use but lower food intake in Gammarus pulex infected with the acanothocephalan Pomphorhynchus laevis.",
+              "normalized50": "Parasite-induced alteration of plastic response to predation threat: increased refuge use but lower food intake in Gammarus pulex infected with the acanothocephalan Pomphorhynchus laevis."
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Dianne Lucile Perrot-Minnot Marie-Jeanne Bauer Alexandre",
+              "normalized": "Dianne Lucile Perrot-Minnot Marie-Jeanne Bauer Alexandre"
+            },
+            "authorFull": {
+              "value": "Dianne Lucile Perrot-Minnot Marie-Jeanne Bauer Alexandre Guvenatam Arnaud Rigaud Thierry",
+              "normalized": "Dianne Lucile Perrot-Minnot Marie-Jeanne Bauer Alexandre Guvenatam Arnaud Rigaud Thierry"
+            },
+            "authorInit": {
+              "value": "Dianne L  Perrot-Minnot M-J  Bauer A",
+              "normalized": "Dianne L  Perrot-Minnot M-J  Bauer A"
+            },
+            "issn": {
+              "value": "0020-7519",
+              "normalized": "0020-7519"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.ijpara.2013.11.001",
+              "normalized": "10.1016/j.ijpara.2013.11.001"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "24291320",
+              "normalized": "24291320"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "3-4",
+              "normalized": "3-4"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "211-216",
+              "normalized": "211-216"
+            },
+            "volume": {
+              "value": "44",
+              "normalized": "44"
+            },
+            "idHal": {
+              "value": "hal-00957328",
+              "normalized": "hal-00957328"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "893225"
+              },
+              {
+                "value": "237071"
+              },
+              {
+                "value": "311391"
+              },
+              {
+                "value": "994540"
+              },
+              {
+                "value": "236903"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-03",
+              "normalized": "2014-03"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "International Journal for Parasitology",
+              "normalized": "International Journal for Parasitology"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00957328.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "KvyQubQsy25zaMLhOks0nmnkd",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:KvyQubQsy25zaMLhOks0nmnkd!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "VHDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:46",
+            "title": {
+              "value": "Reproduction cost reduces demographic stochasticity and enhances inter-individual compatibility.",
+              "normalized": "Reproduction cost reduces demographic stochasticity and enhances inter-individual compatibility.",
+              "normalized50": "Reproduction cost reduces demographic stochasticity and enhances inter-individual compatibility."
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Reproduction cost reduces demographic stochasticity and enhances inter-individual compatibility.",
+              "normalized": "Reproduction cost reduces demographic stochasticity and enhances inter-individual compatibility.",
+              "normalized50": "Reproduction cost reduces demographic stochasticity and enhances inter-individual compatibility."
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Le Cunff Yann Pakdaman Khashayar",
+              "normalized": "Le Cunff Yann Pakdaman Khashayar"
+            },
+            "authorFull": {
+              "value": "Le Cunff Yann Pakdaman Khashayar",
+              "normalized": "Le Cunff Yann Pakdaman Khashayar"
+            },
+            "authorInit": {
+              "value": "Pakdaman K",
+              "normalized": "Pakdaman K"
+            },
+            "issn": {
+              "value": "0022-5193",
+              "normalized": "0022-5193"
+            },
+            "eissn": {
+              "value": "1095-8541",
+              "normalized": "1095-8541"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.jtbi.2014.07.008",
+              "normalized": "10.1016/j.jtbi.2014.07.008"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "25036438",
+              "normalized": "25036438"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "263-270",
+              "normalized": "263-270"
+            },
+            "volume": {
+              "value": "360C",
+              "normalized": "360C"
+            },
+            "idHal": {
+              "value": "hal-01060853",
+              "normalized": "hal-01060853"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "1070636"
+              },
+              {
+                "value": "519638"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-07-15",
+              "normalized": "2014-07-15"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of Theoretical Biology",
+              "normalized": "Journal of Theoretical Biology"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": "Biologie computationnelle et biomathématiques : Resp. Khashayar PAKDAMAN",
+              "normalized": "Biologie computationnelle et biomathématiques : Resp. Khashayar PAKDAMAN"
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01060853.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "tmyVyQJHXF0rD9F_xjjTiWMe1",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:tmyVyQJHXF0rD9F_xjjTiWMe1!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "V3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:46",
+            "title": {
+              "value": "Toros-Menalla (Chad, 7 Ma), the earliest hominin-bearing area: how many mammal paleocommunities?",
+              "normalized": "Toros-Menalla (Chad, 7 Ma), the earliest hominin-bearing area: how many mammal paleocommunities?",
+              "normalized50": "Toros-Menalla (Chad, 7 Ma), the earliest hominin-bearing area: how many mammal paleocommunities?"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Toros-Menalla (Chad, 7 Ma), the earliest hominin-bearing area: how many mammal paleocommunities?",
+              "normalized": "Toros-Menalla (Chad, 7 Ma), the earliest hominin-bearing area: how many mammal paleocommunities?",
+              "normalized50": "Toros-Menalla (Chad, 7 Ma), the earliest hominin-bearing area: how many mammal paleocommunities?"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Le Fur Soizic Fara Emmanuel Mackaye Hassane Taïsso",
+              "normalized": "Le Fur Soizic Fara Emmanuel Mackaye Hassane Taïsso"
+            },
+            "authorFull": {
+              "value": "Le Fur Soizic Fara Emmanuel Mackaye Hassane Taïsso Vignaud Patrick Brunet Michel",
+              "normalized": "Le Fur Soizic Fara Emmanuel Mackaye Hassane Taïsso Vignaud Patrick Brunet Michel"
+            },
+            "authorInit": {
+              "value": "Fara E  Mackaye HT  Vignaud P",
+              "normalized": "Fara E  Mackaye HT  Vignaud P"
+            },
+            "issn": {
+              "value": "0047-2484",
+              "normalized": "0047-2484"
+            },
+            "eissn": {
+              "value": "1095-8606",
+              "normalized": "1095-8606"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.jhevol.2013.09.012",
+              "normalized": "10.1016/j.jhevol.2013.09.012"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "24636371",
+              "normalized": "24636371"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "79-90",
+              "normalized": "79-90"
+            },
+            "volume": {
+              "value": "69",
+              "normalized": "69"
+            },
+            "idHal": {
+              "value": "hal-00978300",
+              "normalized": "hal-00978300"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "1012830"
+              },
+              {
+                "value": "241825"
+              },
+              {
+                "value": "505884"
+              },
+              {
+                "value": "94823"
+              },
+              {
+                "value": "90825"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-04",
+              "normalized": "2014-04"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of Human Evolution",
+              "normalized": "Journal of Human Evolution"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00978300.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "n3QdGCEilSLamPcebbvwbn6rI",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:n3QdGCEilSLamPcebbvwbn6rI!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "XHDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:47",
+            "title": {
+              "value": "Temporal Correlations Between Optical and Gamma-ray Activity in Blazars",
+              "normalized": "Temporal Correlations Between Optical and Gamma-ray Activity in Blazars",
+              "normalized50": "Temporal Correlations Between Optical and Gamma-ray Activity in Blazars"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Temporal Correlations Between Optical and Gamma-ray Activity in Blazars",
+              "normalized": "Temporal Correlations Between Optical and Gamma-ray Activity in Blazars",
+              "normalized50": "Temporal Correlations Between Optical and Gamma-ray Activity in Blazars"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Lott B. Cohen D. P. Romani Roger W.",
+              "normalized": "Lott B. Cohen D. P. Romani Roger W."
+            },
+            "authorFull": {
+              "value": "Lott B. Cohen D. P. Romani Roger W. Filippenko Alexei V. Cenko S. Bradley Zheng WeiKang Li Weidong",
+              "normalized": "Lott B. Cohen D. P. Romani Roger W. Filippenko Alexei V. Cenko S. Bradley Zheng WeiKang Li Weidong"
+            },
+            "authorInit": {
+              "value": "Lott B  Cohen DP  Romani RW",
+              "normalized": "Lott B  Cohen DP  Romani RW"
+            },
+            "issn": {
+              "value": "0004-637X",
+              "normalized": "0004-637X"
+            },
+            "eissn": {
+              "value": "1538-4357",
+              "normalized": "1538-4357"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1088/0004-637X/797/2/137",
+              "normalized": "10.1088/0004-637X/797/2/137"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "137",
+              "normalized": "137"
+            },
+            "volume": {
+              "value": "797",
+              "normalized": "797"
+            },
+            "idHal": {
+              "value": "hal-01119034",
+              "normalized": "hal-01119034"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "8553"
+              },
+              {
+                "value": "1130999"
+              },
+              {
+                "value": "1131000"
+              },
+              {
+                "value": "110695"
+              },
+              {
+                "value": "1076156"
+              },
+              {
+                "value": "1131001"
+              },
+              {
+                "value": "110694"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Astrophysical Journal",
+              "normalized": "Astrophysical Journal"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": "GLAST/CENBG",
+              "normalized": "GLAST/CENBG"
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01119034.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "S0oScsHMg9H4_KKaalS8Emc0Z",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:S0oScsHMg9H4_KKaalS8Emc0Z!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "XnDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:46",
+            "title": {
+              "value": "FESTivE: an information system method to improve product designers and environmental experts information exchanges",
+              "normalized": "FESTivE: an information system method to improve product designers and environmental experts information exchanges",
+              "normalized50": "FESTivE: an information system method to improve product designers and environmental experts information exchanges"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "FESTivE: an information system method to improve product designers and environmental experts information exchanges",
+              "normalized": "FESTivE: an information system method to improve product designers and environmental experts information exchanges",
+              "normalized50": "FESTivE: an information system method to improve product designers and environmental experts information exchanges"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "RIO Maud Reyes Tatiana Roucoules Lionel",
+              "normalized": "RIO Maud Reyes Tatiana Roucoules Lionel"
+            },
+            "authorFull": {
+              "value": "RIO Maud Reyes Tatiana Roucoules Lionel",
+              "normalized": "RIO Maud Reyes Tatiana Roucoules Lionel"
+            },
+            "authorInit": {
+              "value": "RIO M  Reyes T  Roucoules L",
+              "normalized": "RIO M  Reyes T  Roucoules L"
+            },
+            "issn": {
+              "value": "0959-6526",
+              "normalized": "0959-6526"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.jclepro.2014.07.019",
+              "normalized": "10.1016/j.jclepro.2014.07.019"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "329-340",
+              "normalized": "329-340"
+            },
+            "volume": {
+              "value": "83",
+              "normalized": "83"
+            },
+            "idHal": {
+              "value": "hal-01084714",
+              "normalized": "hal-01084714"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "867070"
+              },
+              {
+                "value": "849858"
+              },
+              {
+                "value": "153270"
+              }
+            ],
+            "orcId": {
+              "value": "0000-0002-3023-4866",
+              "normalized": "0000-0002-3023-4866"
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-11",
+              "normalized": "2014-11"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of Cleaner Production",
+              "normalized": "Journal of Cleaner Production"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01084714.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "GR3e1sEVQ9nfqR65hxw_k1XSP",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:GR3e1sEVQ9nfqR65hxw_k1XSP!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "bHDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:49",
+            "title": {
+              "value": "A Multi-Core Parallel Branch-and-Bound Algorithm Using Factorial Number System",
+              "normalized": "A Multi-Core Parallel Branch-and-Bound Algorithm Using Factorial Number System",
+              "normalized50": "A Multi-Core Parallel Branch-and-Bound Algorithm Using Factorial Number System"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "A Multi-Core Parallel Branch-and-Bound Algorithm Using Factorial Number System",
+              "normalized": "A Multi-Core Parallel Branch-and-Bound Algorithm Using Factorial Number System",
+              "normalized50": "A Multi-Core Parallel Branch-and-Bound Algorithm Using Factorial Number System"
+            },
+            "meetingTitle": {
+              "value": "IPDPS 2014 : 28th IEEE International Parallel & Distributed Processing Symposium",
+              "normalized": "IPDPS 2014 : 28th IEEE International Parallel & Distributed Processing Symposium"
+            },
+            "author": {
+              "value": "Mezmaz Mohand Leroy Rudi Melab Nouredine",
+              "normalized": "Mezmaz Mohand Leroy Rudi Melab Nouredine"
+            },
+            "authorFull": {
+              "value": "Mezmaz Mohand Leroy Rudi Melab Nouredine Tuyttens Daniel",
+              "normalized": "Mezmaz Mohand Leroy Rudi Melab Nouredine Tuyttens Daniel"
+            },
+            "authorInit": {
+              "value": "Mezmaz M  Leroy R  Melab N",
+              "normalized": "Mezmaz M  Leroy R  Melab N"
+            },
+            "issn": {
+              "value": ""
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1109/IPDPS.2014.124",
+              "normalized": "10.1109/IPDPS.2014.124"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": ""
+            },
+            "volume": {
+              "value": ""
+            },
+            "idHal": {
+              "value": "hal-00934841",
+              "normalized": "hal-00934841"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "974078"
+              },
+              {
+                "value": "974079"
+              },
+              {
+                "value": "867546"
+              },
+              {
+                "value": "974080"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-05-19",
+              "normalized": "2014-05-19"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": ""
+            },
+            "typeDocument": [
+              {
+                "value": "COMM"
+              }
+            ],
+            "typeDocumentFlat": [
+              "COMM"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00934841.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Conférence",
+                "raw": "Conférence"
+              }
+            ],
+            "idConditor": "ydQGAXd0AxSDTa0zJHICpz6c1",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:ydQGAXd0AxSDTa0zJHICpz6c1!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "b3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:50",
+            "title": {
+              "value": "Intrinsic complexity estimates in polynomial optimization",
+              "normalized": "Intrinsic complexity estimates in polynomial optimization",
+              "normalized50": "Intrinsic complexity estimates in polynomial optimization"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Intrinsic complexity estimates in polynomial optimization",
+              "normalized": "Intrinsic complexity estimates in polynomial optimization",
+              "normalized50": "Intrinsic complexity estimates in polynomial optimization"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Bank Bernd Giusti Marc Heintz Joos",
+              "normalized": "Bank Bernd Giusti Marc Heintz Joos"
+            },
+            "authorFull": {
+              "value": "Bank Bernd Giusti Marc Heintz Joos Safey El Din Mohab",
+              "normalized": "Bank Bernd Giusti Marc Heintz Joos Safey El Din Mohab"
+            },
+            "authorInit": {
+              "value": "Bank B  Giusti M  Heintz J",
+              "normalized": "Bank B  Giusti M  Heintz J"
+            },
+            "issn": {
+              "value": "0885-064X",
+              "normalized": "0885-064X"
+            },
+            "eissn": {
+              "value": "1090-2708",
+              "normalized": "1090-2708"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.jco.2014.02.005",
+              "normalized": "10.1016/j.jco.2014.02.005"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": "1304.5214",
+              "normalized": "1304.5214"
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "4",
+              "normalized": "4"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "430-443",
+              "normalized": "430-443"
+            },
+            "volume": {
+              "value": "30",
+              "normalized": "30"
+            },
+            "idHal": {
+              "value": "hal-00815123",
+              "normalized": "hal-00815123"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "841373"
+              },
+              {
+                "value": "841374"
+              },
+              {
+                "value": "841375"
+              },
+              {
+                "value": "1244130"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-02-12",
+              "normalized": "2014-02-12"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of Complexity",
+              "normalized": "Journal of Complexity"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00815123.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "r6ePzGnxu60ZSlBYNNP8Uxoh4",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:r6ePzGnxu60ZSlBYNNP8Uxoh4!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "cnDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:50",
+            "title": {
+              "value": "The Super-Higgs Mechanism in Fluids",
+              "normalized": "The Super-Higgs Mechanism in Fluids",
+              "normalized50": "The Super-Higgs Mechanism in Fluids"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "The Super-Higgs Mechanism in Fluids",
+              "normalized": "The Super-Higgs Mechanism in Fluids",
+              "normalized50": "The Super-Higgs Mechanism in Fluids"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Benakli Karim Oz Yaron Policastro Giuseppe",
+              "normalized": "Benakli Karim Oz Yaron Policastro Giuseppe"
+            },
+            "authorFull": {
+              "value": "Benakli Karim Oz Yaron Policastro Giuseppe",
+              "normalized": "Benakli Karim Oz Yaron Policastro Giuseppe"
+            },
+            "authorInit": {
+              "value": "Benakli K  Oz Y  Policastro G",
+              "normalized": "Benakli K  Oz Y  Policastro G"
+            },
+            "issn": {
+              "value": "1126-6708",
+              "normalized": "1126-6708"
+            },
+            "eissn": {
+              "value": "1029-8479",
+              "normalized": "1029-8479"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1007/JHEP02(2014)015",
+              "normalized": "10.1007/JHEP02(2014)015"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": "1310.5002",
+              "normalized": "1310.5002"
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "015",
+              "normalized": "015"
+            },
+            "volume": {
+              "value": "02",
+              "normalized": "02"
+            },
+            "idHal": {
+              "value": "hal-00913301",
+              "normalized": "hal-00913301"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "133970"
+              },
+              {
+                "value": "952147"
+              },
+              {
+                "value": "268864"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-02-04",
+              "normalized": "2014-02-04"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of High Energy Physics",
+              "normalized": "Journal of High Energy Physics"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00913301.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "aVjbh_ld6iMs3jzMZ58wDEWon",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:aVjbh_ld6iMs3jzMZ58wDEWon!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "dHDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:49",
+            "title": {
+              "value": "A general theorem of existence of quasi absolutely minimal Lipschitz extensions",
+              "normalized": "A general theorem of existence of quasi absolutely minimal Lipschitz extensions",
+              "normalized50": "A general theorem of existence of quasi absolutely minimal Lipschitz extensions"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "A general theorem of existence of quasi absolutely minimal Lipschitz extensions",
+              "normalized": "A general theorem of existence of quasi absolutely minimal Lipschitz extensions",
+              "normalized50": "A general theorem of existence of quasi absolutely minimal Lipschitz extensions"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Hirn Matthew Le Gruyer Erwan",
+              "normalized": "Hirn Matthew Le Gruyer Erwan"
+            },
+            "authorFull": {
+              "value": "Hirn Matthew Le Gruyer Erwan",
+              "normalized": "Hirn Matthew Le Gruyer Erwan"
+            },
+            "authorInit": {
+              "value": ""
+            },
+            "issn": {
+              "value": "0025-5831",
+              "normalized": "0025-5831"
+            },
+            "eissn": {
+              "value": "1432-1807",
+              "normalized": "1432-1807"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1007/s00208-013-1003-5",
+              "normalized": "10.1007/s00208-013-1003-5"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "3-4",
+              "normalized": "3-4"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "595-628",
+              "normalized": "595-628"
+            },
+            "volume": {
+              "value": "359",
+              "normalized": "359"
+            },
+            "idHal": {
+              "value": "hal-00758247",
+              "normalized": "hal-00758247"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "789348"
+              },
+              {
+                "value": "1241"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Mathematische Annalen",
+              "normalized": "Mathematische Annalen"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00758247.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "lWUBZwONl3kaDB6NAGzYo8YzR",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:lWUBZwONl3kaDB6NAGzYo8YzR!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "dnDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:52",
+            "title": {
+              "value": "Facile Bench-Top Fabrication of Enclosed Circular Microchannels Provides 3D Confined Structure for Growth of Prostate Epithelial Cells.",
+              "normalized": "Facile Bench-Top Fabrication of Enclosed Circular Microchannels Provides 3D Confined Structure for Growth of Prostate Epithelial Cells.",
+              "normalized50": "Facile Bench-Top Fabrication of Enclosed Circular Microchannels Provides 3D Confined Structure for Growth of Prostate Epithelial Cells."
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Facile Bench-Top Fabrication of Enclosed Circular Microchannels Provides 3D Confined Structure for Growth of Prostate Epithelial Cells.",
+              "normalized": "Facile Bench-Top Fabrication of Enclosed Circular Microchannels Provides 3D Confined Structure for Growth of Prostate Epithelial Cells.",
+              "normalized50": "Facile Bench-Top Fabrication of Enclosed Circular Microchannels Provides 3D Confined Structure for Growth of Prostate Epithelial Cells."
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Dolega Monika E Wagh Jayesh Gerbaud Sophie",
+              "normalized": "Dolega Monika E Wagh Jayesh Gerbaud Sophie"
+            },
+            "authorFull": {
+              "value": "Dolega Monika E Wagh Jayesh Gerbaud Sophie Kermarrec Frederique Alcaraz Jean-Pierre Martin Donald K Gidrol Xavier Picollet-D'Hahan Nathalie",
+              "normalized": "Dolega Monika E Wagh Jayesh Gerbaud Sophie Kermarrec Frederique Alcaraz Jean-Pierre Martin Donald K Gidrol Xavier Picollet-D'Hahan Nathalie"
+            },
+            "authorInit": {
+              "value": "Dolega ME  Wagh J  Gerbaud S",
+              "normalized": "Dolega ME  Wagh J  Gerbaud S"
+            },
+            "issn": {
+              "value": "1932-6203",
+              "normalized": "1932-6203"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1371/journal.pone.0099416",
+              "normalized": "10.1371/journal.pone.0099416"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "24945245",
+              "normalized": "24945245"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "6",
+              "normalized": "6"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "e99416",
+              "normalized": "e99416"
+            },
+            "volume": {
+              "value": "9",
+              "normalized": "9"
+            },
+            "idHal": {
+              "value": "hal-01016403",
+              "normalized": "hal-01016403"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "941916"
+              },
+              {
+                "value": "941917"
+              },
+              {
+                "value": "941913"
+              },
+              {
+                "value": "1046649"
+              },
+              {
+                "value": "80331"
+              },
+              {
+                "value": "1046650"
+              },
+              {
+                "value": "74784"
+              },
+              {
+                "value": "847910"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "PLoS ONE",
+              "normalized": "PLoS ONE"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01016403.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "ZbEtWHEoP7XszJrEHWYEHj1j4",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:ZbEtWHEoP7XszJrEHWYEHj1j4!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "e3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:53",
+            "title": {
+              "value": "Experimental modeling of calcium carbonate precipitation by cyanobacterium Gloeocapsa sp.",
+              "normalized": "Experimental modeling of calcium carbonate precipitation by cyanobacterium Gloeocapsa sp.",
+              "normalized50": "Experimental modeling of calcium carbonate precipitation by cyanobacterium Gloeocapsa sp."
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Experimental modeling of calcium carbonate precipitation by cyanobacterium Gloeocapsa sp.",
+              "normalized": "Experimental modeling of calcium carbonate precipitation by cyanobacterium Gloeocapsa sp.",
+              "normalized50": "Experimental modeling of calcium carbonate precipitation by cyanobacterium Gloeocapsa sp."
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Bundeleva Irina A. Shirokova Liudmila S. Pokrovsky Oleg S.",
+              "normalized": "Bundeleva Irina A. Shirokova Liudmila S. Pokrovsky Oleg S."
+            },
+            "authorFull": {
+              "value": "Bundeleva Irina A. Shirokova Liudmila S. Pokrovsky Oleg S. Bénézeth Pascale Ménez Bénédicte Gérard Emmanuelle Balor Stéphanie",
+              "normalized": "Bundeleva Irina A. Shirokova Liudmila S. Pokrovsky Oleg S. Bénézeth Pascale Ménez Bénédicte Gérard Emmanuelle Balor Stéphanie"
+            },
+            "authorInit": {
+              "value": "Bundeleva IA  Shirokova LS  Bénézeth P",
+              "normalized": "Bundeleva IA  Shirokova LS  Bénézeth P"
+            },
+            "issn": {
+              "value": "0009-2541",
+              "normalized": "0009-2541"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.chemgeo.2014.03.007",
+              "normalized": "10.1016/j.chemgeo.2014.03.007"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "44-60",
+              "normalized": "44-60"
+            },
+            "volume": {
+              "value": "374-375",
+              "normalized": "374-375"
+            },
+            "idHal": {
+              "value": "hal-00967924",
+              "normalized": "hal-00967924"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "1005745"
+              },
+              {
+                "value": "1005746"
+              },
+              {
+                "value": "1005747"
+              },
+              {
+                "value": "348367"
+              },
+              {
+                "value": "1005748"
+              },
+              {
+                "value": "88674"
+              },
+              {
+                "value": "199503"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-05-26",
+              "normalized": "2014-05-26"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Chemical Geology",
+              "normalized": "Chemical Geology"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00967924.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "lU4W7x7VsSxbTBWMx4sgqfCrD",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:lU4W7x7VsSxbTBWMx4sgqfCrD!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "fnDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:52",
+            "title": {
+              "value": "High Performance Computing linear algorithms for two-phase flow in porous media",
+              "normalized": "High Performance Computing linear algorithms for two-phase flow in porous media",
+              "normalized50": "High Performance Computing linear algorithms for two-phase flow in porous media"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "High Performance Computing linear algorithms for two-phase flow in porous media",
+              "normalized": "High Performance Computing linear algorithms for two-phase flow in porous media",
+              "normalized50": "High Performance Computing linear algorithms for two-phase flow in porous media"
+            },
+            "meetingTitle": {
+              "value": "FVCA7 - The International Symposium of Finite Volumes for Complex Applications VII",
+              "normalized": "FVCA7 - The International Symposium of Finite Volumes for Complex Applications VII"
+            },
+            "author": {
+              "value": "Eymard Robert Guichard Cindy Masson Roland",
+              "normalized": "Eymard Robert Guichard Cindy Masson Roland"
+            },
+            "authorFull": {
+              "value": "Eymard Robert Guichard Cindy Masson Roland",
+              "normalized": "Eymard Robert Guichard Cindy Masson Roland"
+            },
+            "authorInit": {
+              "value": "Eymard R  Guichard C  Masson R",
+              "normalized": "Eymard R  Guichard C  Masson R"
+            },
+            "issn": {
+              "value": ""
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1007/978-3-319-05591-6_55",
+              "normalized": "10.1007/978-3-319-05591-6_55"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": ""
+            },
+            "volume": {
+              "value": ""
+            },
+            "idHal": {
+              "value": "hal-00958131",
+              "normalized": "hal-00958131"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "51855"
+              },
+              {
+                "value": "976655"
+              },
+              {
+                "value": "642464"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": ""
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": ""
+            },
+            "typeDocument": [
+              {
+                "value": "COMM"
+              }
+            ],
+            "typeDocumentFlat": [
+              "COMM"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00958131.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Conférence",
+                "raw": "Conférence"
+              }
+            ],
+            "idConditor": "E6MfhQQWvpYri8DS1Lr5IwPeV",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:E6MfhQQWvpYri8DS1Lr5IwPeV!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "g3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:54",
+            "title": {
+              "value": "Fluid systems above basement shear zones during inversion of pre-orogenic sedimentary basins (External Crystalline Massifs, Western Alps)",
+              "normalized": "Fluid systems above basement shear zones during inversion of pre-orogenic sedimentary basins (External Crystalline Massifs, Western Alps)",
+              "normalized50": "Fluid systems above basement shear zones during inversion of pre-orogenic sedimentary basins (External Crystalline Massifs, Western Alps)"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Fluid systems above basement shear zones during inversion of pre-orogenic sedimentary basins (External Crystalline Massifs, Western Alps)",
+              "normalized": "Fluid systems above basement shear zones during inversion of pre-orogenic sedimentary basins (External Crystalline Massifs, Western Alps)",
+              "normalized50": "Fluid systems above basement shear zones during inversion of pre-orogenic sedimentary basins (External Crystalline Massifs, Western Alps)"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Boutoux Alexandre Verlaguet Anne Bellahsen Nicolas",
+              "normalized": "Boutoux Alexandre Verlaguet Anne Bellahsen Nicolas"
+            },
+            "authorFull": {
+              "value": "Boutoux Alexandre Verlaguet Anne Bellahsen Nicolas Lacombe Olivier Villemant Benoît Caron Benoît Martin Erwan Assayag Nelly Cartigny Pierre",
+              "normalized": "Boutoux Alexandre Verlaguet Anne Bellahsen Nicolas Lacombe Olivier Villemant Benoît Caron Benoît Martin Erwan Assayag Nelly Cartigny Pierre"
+            },
+            "authorInit": {
+              "value": "Boutoux A  Verlaguet A  Bellahsen N",
+              "normalized": "Boutoux A  Verlaguet A  Bellahsen N"
+            },
+            "issn": {
+              "value": "0024-4937",
+              "normalized": "0024-4937"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.lithos.2014.07.005",
+              "normalized": "10.1016/j.lithos.2014.07.005"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "435-453",
+              "normalized": "435-453"
+            },
+            "volume": {
+              "value": "206-207",
+              "normalized": "206-207"
+            },
+            "idHal": {
+              "value": "hal-01065620",
+              "normalized": "hal-01065620"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "1075837"
+              },
+              {
+                "value": "653109"
+              },
+              {
+                "value": "436405"
+              },
+              {
+                "value": "88618"
+              },
+              {
+                "value": "659843"
+              },
+              {
+                "value": "1416662"
+              },
+              {
+                "value": "653501"
+              },
+              {
+                "value": "1015217"
+              },
+              {
+                "value": "161959"
+              }
+            ],
+            "orcId": {
+              "value": "0000-0003-4264-4552",
+              "normalized": "0000-0003-4264-4552"
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Lithos",
+              "normalized": "Lithos"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01065620.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "Kkj_FHXIBt0CRdbwFlysSLybm",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:Kkj_FHXIBt0CRdbwFlysSLybm!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "h3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:54",
+            "title": {
+              "value": "A nano-satellite to study the Sun and the Earth",
+              "normalized": "A nano-satellite to study the Sun and the Earth",
+              "normalized50": "A nano-satellite to study the Sun and the Earth"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "A nano-satellite to study the Sun and the Earth",
+              "normalized": "A nano-satellite to study the Sun and the Earth",
+              "normalized50": "A nano-satellite to study the Sun and the Earth"
+            },
+            "meetingTitle": {
+              "value": "Proc. SPIE 9085, Sensors and Systems for Space Applications VII",
+              "normalized": "Proc. SPIE 9085, Sensors and Systems for Space Applications VII"
+            },
+            "author": {
+              "value": "Meftah Mustapha Irbah Abdanour Damé Luc",
+              "normalized": "Meftah Mustapha Irbah Abdanour Damé Luc"
+            },
+            "authorFull": {
+              "value": "Meftah Mustapha Irbah Abdanour Damé Luc Hauchecorne Alain Sarkissian Alain Keckhut Philippe Lagage P.-O. Dewitte S. Chevalier A.",
+              "normalized": "Meftah Mustapha Irbah Abdanour Damé Luc Hauchecorne Alain Sarkissian Alain Keckhut Philippe Lagage P.-O. Dewitte S. Chevalier A."
+            },
+            "authorInit": {
+              "value": "Meftah M  Irbah A  Damé L",
+              "normalized": "Meftah M  Irbah A  Damé L"
+            },
+            "issn": {
+              "value": ""
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1117/12.2050134",
+              "normalized": "10.1117/12.2050134"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "90850Y",
+              "normalized": "90850Y"
+            },
+            "volume": {
+              "value": "9085",
+              "normalized": "9085"
+            },
+            "idHal": {
+              "value": "hal-01059499",
+              "normalized": "hal-01059499"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "825195"
+              },
+              {
+                "value": "990402"
+              },
+              {
+                "value": "972483"
+              },
+              {
+                "value": "664214"
+              },
+              {
+                "value": "688356"
+              },
+              {
+                "value": "683202"
+              },
+              {
+                "value": "306705"
+              },
+              {
+                "value": "330425"
+              },
+              {
+                "value": "171453"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": ""
+            },
+            "typeDocument": [
+              {
+                "value": "COMM"
+              }
+            ],
+            "typeDocumentFlat": [
+              "COMM"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": "2014SPIE.9085E..0YM",
+              "normalized": "2014SPIE.9085E..0YM"
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01059499.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Conférence",
+                "raw": "Conférence"
+              }
+            ],
+            "idConditor": "lyP1TWbpilAU6tGx5Mta9nbLl",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:lyP1TWbpilAU6tGx5Mta9nbLl!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "j3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:55",
+            "title": {
+              "value": "Impact of the Cathode Microstructure on the Discharge Performance of Lithium Air Batteries: A Multiscale Model",
+              "normalized": "Impact of the Cathode Microstructure on the Discharge Performance of Lithium Air Batteries: A Multiscale Model",
+              "normalized50": "Impact of the Cathode Microstructure on the Discharge Performance of Lithium Air Batteries: A Multiscale Model"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Impact of the Cathode Microstructure on the Discharge Performance of Lithium Air Batteries: A Multiscale Model",
+              "normalized": "Impact of the Cathode Microstructure on the Discharge Performance of Lithium Air Batteries: A Multiscale Model",
+              "normalized50": "Impact of the Cathode Microstructure on the Discharge Performance of Lithium Air Batteries: A Multiscale Model"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Kan-Hao Xue Nguyen Tron-Khoa Franco Alejandro A.",
+              "normalized": "Kan-Hao Xue Nguyen Tron-Khoa Franco Alejandro A."
+            },
+            "authorFull": {
+              "value": "Kan-Hao Xue Nguyen Tron-Khoa Franco Alejandro A.",
+              "normalized": "Kan-Hao Xue Nguyen Tron-Khoa Franco Alejandro A."
+            },
+            "authorInit": {
+              "value": "Kan-Hao X  Nguyen T-K  Franco AA",
+              "normalized": "Kan-Hao X  Nguyen T-K  Franco AA"
+            },
+            "issn": {
+              "value": "0013-4651",
+              "normalized": "0013-4651"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": ""
+            },
+            "hasDoi": false,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "E3028-E3035",
+              "normalized": "E3028-E3035"
+            },
+            "volume": {
+              "value": "161",
+              "normalized": "161"
+            },
+            "idHal": {
+              "value": "hal-00957073",
+              "normalized": "hal-00957073"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "901669"
+              },
+              {
+                "value": "994392"
+              },
+              {
+                "value": "901668"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-03-07",
+              "normalized": "2014-03-07"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of The Electrochemical Society",
+              "normalized": "Journal of The Electrochemical Society"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00957073.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "KWNxm_389zSKLm5vrvYNjKqrk",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:KWNxm_389zSKLm5vrvYNjKqrk!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "MnDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:36",
+            "title": {
+              "value": "Caged mudsnail Potamopyrgus antipodarum (Gray) as an integrated field biomonitoring tool: Exposure assessment and reprotoxic effects of water column contamination",
+              "normalized": "Caged mudsnail Potamopyrgus antipodarum (Gray) as an integrated field biomonitoring tool: Exposure assessment and reprotoxic effects of water column contamination",
+              "normalized50": "Caged mudsnail Potamopyrgus antipodarum (Gray) as an integrated field biomonitoring tool: Exposure assessment and reprotoxic effects of water column contamination"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Caged mudsnail Potamopyrgus antipodarum (Gray) as an integrated field biomonitoring tool: Exposure assessment and reprotoxic effects of water column contamination",
+              "normalized": "Caged mudsnail Potamopyrgus antipodarum (Gray) as an integrated field biomonitoring tool: Exposure assessment and reprotoxic effects of water column contamination",
+              "normalized50": "Caged mudsnail Potamopyrgus antipodarum (Gray) as an integrated field biomonitoring tool: Exposure assessment and reprotoxic effects of water column contamination"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Gust Marion Gagné Francois Berlioz-Barbier Alexandra",
+              "normalized": "Gust Marion Gagné Francois Berlioz-Barbier Alexandra"
+            },
+            "authorFull": {
+              "value": "Gust Marion Gagné Francois Berlioz-Barbier Alexandra Besse J.P. Buronfosse Thierry Tournier Mikaël Tutundjian Renaud Garric Jeanne Cren-Olivé Cécile",
+              "normalized": "Gust Marion Gagné Francois Berlioz-Barbier Alexandra Besse J.P. Buronfosse Thierry Tournier Mikaël Tutundjian Renaud Garric Jeanne Cren-Olivé Cécile"
+            },
+            "authorInit": {
+              "value": "Gust M  Gagné F  Berlioz-Barbier A",
+              "normalized": "Gust M  Gagné F  Berlioz-Barbier A"
+            },
+            "issn": {
+              "value": "0043-1354",
+              "normalized": "0043-1354"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.watres.2014.01.057",
+              "normalized": "10.1016/j.watres.2014.01.057"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "222-236",
+              "normalized": "222-236"
+            },
+            "volume": {
+              "value": "54",
+              "normalized": "54"
+            },
+            "idHal": {
+              "value": "hal-00991074",
+              "normalized": "hal-00991074"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "516948"
+              },
+              {
+                "value": "846955"
+              },
+              {
+                "value": "993393"
+              },
+              {
+                "value": "55545"
+              },
+              {
+                "value": "516949"
+              },
+              {
+                "value": "730078"
+              },
+              {
+                "value": "902001"
+              },
+              {
+                "value": "606570"
+              },
+              {
+                "value": "516525"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-05",
+              "normalized": "2014-05"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Water Research",
+              "normalized": "Water Research"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00991074.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "7wf8nrWJgqxCN5jyHBFLrUayQ",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:7wf8nrWJgqxCN5jyHBFLrUayQ!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "NXDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:37",
+            "title": {
+              "value": "Selective l1 minimization for sparse recovery",
+              "normalized": "Selective l1 minimization for sparse recovery",
+              "normalized50": "Selective l1 minimization for sparse recovery"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Selective l1 minimization for sparse recovery",
+              "normalized": "Selective l1 minimization for sparse recovery",
+              "normalized50": "Selective l1 minimization for sparse recovery"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Le Van Luong Lauer Fabien Bloch Gérard",
+              "normalized": "Le Van Luong Lauer Fabien Bloch Gérard"
+            },
+            "authorFull": {
+              "value": "Le Van Luong Lauer Fabien Bloch Gérard",
+              "normalized": "Le Van Luong Lauer Fabien Bloch Gérard"
+            },
+            "authorInit": {
+              "value": "Le VL  Lauer F  Bloch G",
+              "normalized": "Le VL  Lauer F  Bloch G"
+            },
+            "issn": {
+              "value": "0018-9286",
+              "normalized": "0018-9286"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1109/TAC.2014.2351694",
+              "normalized": "10.1109/TAC.2014.2351694"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "11",
+              "normalized": "11"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "3008-3013",
+              "normalized": "3008-3013"
+            },
+            "volume": {
+              "value": "59",
+              "normalized": "59"
+            },
+            "idHal": {
+              "value": "hal-00904836",
+              "normalized": "hal-00904836"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "826068"
+              },
+              {
+                "value": "1091620"
+              },
+              {
+                "value": "81023"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-11",
+              "normalized": "2014-11"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "IEEE Transactions on Automatic Control",
+              "normalized": "IEEE Transactions on Automatic Control"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": "CID",
+              "normalized": "CID"
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00904836.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "SOIS0tarJH9RKmgvfuuYm6fKq",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:SOIS0tarJH9RKmgvfuuYm6fKq!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "OHDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:41",
+            "title": {
+              "value": "Forest soil microbial functional patterns and response to a drought and warming event: key role of climate-plant-soil interactions at a regional scale",
+              "normalized": "Forest soil microbial functional patterns and response to a drought and warming event: key role of climate-plant-soil interactions at a regional scale",
+              "normalized50": "Forest soil microbial functional patterns and response to a drought and warming event: key role of climate-plant-soil interactions at a regional scale"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Forest soil microbial functional patterns and response to a drought and warming event: key role of climate-plant-soil interactions at a regional scale",
+              "normalized": "Forest soil microbial functional patterns and response to a drought and warming event: key role of climate-plant-soil interactions at a regional scale",
+              "normalized50": "Forest soil microbial functional patterns and response to a drought and warming event: key role of climate-plant-soil interactions at a regional scale"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Pailler A. Vennetier M. Torre F.",
+              "normalized": "Pailler A. Vennetier M. Torre F."
+            },
+            "authorFull": {
+              "value": "Pailler A. Vennetier M. Torre F. Ripert C. Guiral D.",
+              "normalized": "Pailler A. Vennetier M. Torre F. Ripert C. Guiral D."
+            },
+            "authorInit": {
+              "value": "Pailler A  Vennetier M  Torre F",
+              "normalized": "Pailler A  Vennetier M  Torre F"
+            },
+            "issn": {
+              "value": "0038-0717",
+              "normalized": "0038-0717"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.soilbio.2013.12.003",
+              "normalized": "10.1016/j.soilbio.2013.12.003"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "p. 1 - p. 4",
+              "normalized": "p. 1 - p. 4"
+            },
+            "volume": {
+              "value": "70",
+              "normalized": "70"
+            },
+            "idHal": {
+              "value": "hal-00991404",
+              "normalized": "hal-00991404"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "1022190"
+              },
+              {
+                "value": "466449"
+              },
+              {
+                "value": "360477"
+              },
+              {
+                "value": "466592"
+              },
+              {
+                "value": "818367"
+              }
+            ],
+            "orcId": {
+              "value": "0000-0002-0864-0489",
+              "normalized": "0000-0002-0864-0489"
+            },
+            "researcherId": [
+              {
+                "value": "C-1136-2009"
+              }
+            ],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Soil Biology and Biochemistry",
+              "normalized": "Soil Biology and Biochemistry"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": "PUB00040798",
+              "normalized": "PUB00040798"
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00991404.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "GFTxnTA_4NRheY7xBSccomtic",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:GFTxnTA_4NRheY7xBSccomtic!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "O3DFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:38",
+            "title": {
+              "value": "Revealing organic carbon-nitrate linear relationship from UV spectra of freshwaters in agricultural environment",
+              "normalized": "Revealing organic carbon-nitrate linear relationship from UV spectra of freshwaters in agricultural environment",
+              "normalized50": "Revealing organic carbon-nitrate linear relationship from UV spectra of freshwaters in agricultural environment"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Revealing organic carbon-nitrate linear relationship from UV spectra of freshwaters in agricultural environment",
+              "normalized": "Revealing organic carbon-nitrate linear relationship from UV spectra of freshwaters in agricultural environment",
+              "normalized50": "Revealing organic carbon-nitrate linear relationship from UV spectra of freshwaters in agricultural environment"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Thomas O. Jung A. V. Causse J.",
+              "normalized": "Thomas O. Jung A. V. Causse J."
+            },
+            "authorFull": {
+              "value": "Thomas O. Jung A. V. Causse J. Louyer M. V. Piel S. Baurès E. Thomas M. F.",
+              "normalized": "Thomas O. Jung A. V. Causse J. Louyer M. V. Piel S. Baurès E. Thomas M. F."
+            },
+            "authorInit": {
+              "value": "Thomas O  Jung AV  Causse J",
+              "normalized": "Thomas O  Jung AV  Causse J"
+            },
+            "issn": {
+              "value": "0045-6535",
+              "normalized": "0045-6535"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.chemosphere.2014.03.034",
+              "normalized": "10.1016/j.chemosphere.2014.03.034"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "24875878",
+              "normalized": "24875878"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "115--120",
+              "normalized": "115--120"
+            },
+            "volume": {
+              "value": "107",
+              "normalized": "107"
+            },
+            "idHal": {
+              "value": "hal-01063932",
+              "normalized": "hal-01063932"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "37603"
+              },
+              {
+                "value": "1073529"
+              },
+              {
+                "value": "1073530"
+              },
+              {
+                "value": "1073531"
+              },
+              {
+                "value": "1073532"
+              },
+              {
+                "value": "1073533"
+              },
+              {
+                "value": "1073534"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Chemosphere",
+              "normalized": "Chemosphere"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01063932.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "K0oNDJgg4_sxsxnJJQo55ePzp",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:K0oNDJgg4_sxsxnJJQo55ePzp!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "QnDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:42",
+            "title": {
+              "value": "Differential meta-analysis of RNA-seq data from multiple studies",
+              "normalized": "Differential meta-analysis of RNA-seq data from multiple studies",
+              "normalized50": "Differential meta-analysis of RNA-seq data from multiple studies"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Differential meta-analysis of RNA-seq data from multiple studies",
+              "normalized": "Differential meta-analysis of RNA-seq data from multiple studies",
+              "normalized50": "Differential meta-analysis of RNA-seq data from multiple studies"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Rau Andrea Marot Guillemette Jaffrézic Florence",
+              "normalized": "Rau Andrea Marot Guillemette Jaffrézic Florence"
+            },
+            "authorFull": {
+              "value": "Rau Andrea Marot Guillemette Jaffrézic Florence",
+              "normalized": "Rau Andrea Marot Guillemette Jaffrézic Florence"
+            },
+            "authorInit": {
+              "value": "Marot G  Jaffrézic F",
+              "normalized": "Marot G  Jaffrézic F"
+            },
+            "issn": {
+              "value": "1471-2105",
+              "normalized": "1471-2105"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1186/1471-2105-15-91",
+              "normalized": "10.1186/1471-2105-15-91"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "24678608",
+              "normalized": "24678608"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "1",
+              "normalized": "1"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "91",
+              "normalized": "91"
+            },
+            "volume": {
+              "value": "15",
+              "normalized": "15"
+            },
+            "idHal": {
+              "value": "hal-00978902",
+              "normalized": "hal-00978902"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "655777"
+              },
+              {
+                "value": "811286"
+              },
+              {
+                "value": "1013305"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "BMC Bioinformatics",
+              "normalized": "BMC Bioinformatics"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-00978902.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "eWK4ySmRU8VMSKkclImINac6l",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:eWK4ySmRU8VMSKkclImINac6l!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "RXDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:42",
+            "title": {
+              "value": "Arrival-time judgments on multiple-lane streets: the failure to ignore irrelevant traffic",
+              "normalized": "Arrival-time judgments on multiple-lane streets: the failure to ignore irrelevant traffic",
+              "normalized50": "Arrival-time judgments on multiple-lane streets: the failure to ignore irrelevant traffic"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Arrival-time judgments on multiple-lane streets: the failure to ignore irrelevant traffic",
+              "normalized": "Arrival-time judgments on multiple-lane streets: the failure to ignore irrelevant traffic",
+              "normalized50": "Arrival-time judgments on multiple-lane streets: the failure to ignore irrelevant traffic"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Baures Robin Oberfeld Daniel Tournier Isabelle",
+              "normalized": "Baures Robin Oberfeld Daniel Tournier Isabelle"
+            },
+            "authorFull": {
+              "value": "Baures Robin Oberfeld Daniel Tournier Isabelle Hecht Heiko Cavallo Viola",
+              "normalized": "Baures Robin Oberfeld Daniel Tournier Isabelle Hecht Heiko Cavallo Viola"
+            },
+            "authorInit": {
+              "value": "Baures R  Oberfeld D  Tournier I",
+              "normalized": "Baures R  Oberfeld D  Tournier I"
+            },
+            "issn": {
+              "value": "0001-4575",
+              "normalized": "0001-4575"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.aap.2013.12.013",
+              "normalized": "10.1016/j.aap.2013.12.013"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "pp 72-84",
+              "normalized": "pp 72-84"
+            },
+            "volume": {
+              "value": "65",
+              "normalized": "65"
+            },
+            "idHal": {
+              "value": "hal-01065173",
+              "normalized": "hal-01065173"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "593828"
+              },
+              {
+                "value": "593822"
+              },
+              {
+                "value": "160917"
+              },
+              {
+                "value": "593823"
+              },
+              {
+                "value": "498533"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-01-01",
+              "normalized": "2014-01-01"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Accident Analysis and Prevention",
+              "normalized": "Accident Analysis and Prevention"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01065173.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "wE0bWIqzR9md2rzfuNePk6E0y",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:wE0bWIqzR9md2rzfuNePk6E0y!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "SXDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:43",
+            "title": {
+              "value": "A real time affinity biosensor on an insulated polymer using electric impedance spectroscopy in dielectric microchips.",
+              "normalized": "A real time affinity biosensor on an insulated polymer using electric impedance spectroscopy in dielectric microchips.",
+              "normalized50": "A real time affinity biosensor on an insulated polymer using electric impedance spectroscopy in dielectric microchips."
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "A real time affinity biosensor on an insulated polymer using electric impedance spectroscopy in dielectric microchips.",
+              "normalized": "A real time affinity biosensor on an insulated polymer using electric impedance spectroscopy in dielectric microchips.",
+              "normalized50": "A real time affinity biosensor on an insulated polymer using electric impedance spectroscopy in dielectric microchips."
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Kechadi Mohammed Sotta Bruno Chaal Lila",
+              "normalized": "Kechadi Mohammed Sotta Bruno Chaal Lila"
+            },
+            "authorFull": {
+              "value": "Kechadi Mohammed Sotta Bruno Chaal Lila Tribollet Bernard Gamby Jean",
+              "normalized": "Kechadi Mohammed Sotta Bruno Chaal Lila Tribollet Bernard Gamby Jean"
+            },
+            "authorInit": {
+              "value": "Kechadi M  Sotta B  Chaal L",
+              "normalized": "Kechadi M  Sotta B  Chaal L"
+            },
+            "issn": {
+              "value": "0003-2654",
+              "normalized": "0003-2654"
+            },
+            "eissn": {
+              "value": "1364-5528",
+              "normalized": "1364-5528"
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1039/c4an00212a",
+              "normalized": "10.1039/c4an00212a"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": "24781384",
+              "normalized": "24781384"
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": "12",
+              "normalized": "12"
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "3115-3121",
+              "normalized": "3115-3121"
+            },
+            "volume": {
+              "value": "139",
+              "normalized": "139"
+            },
+            "idHal": {
+              "value": "hal-01019204",
+              "normalized": "hal-01019204"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "859115"
+              },
+              {
+                "value": "179659"
+              },
+              {
+                "value": "834901"
+              },
+              {
+                "value": "1047589"
+              },
+              {
+                "value": "858721"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-06-21",
+              "normalized": "2014-06-21"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Analyst",
+              "normalized": "Analyst"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": "P 14-22",
+              "normalized": "P 14-22"
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01019204.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "1zVmCGkoEFn6hqsLRfiv1uEWV",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:1zVmCGkoEFn6hqsLRfiv1uEWV!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "UHDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:43",
+            "title": {
+              "value": "Magnetic nanoparticle DNA labeling for individual bacterial cell detection and recovery",
+              "normalized": "Magnetic nanoparticle DNA labeling for individual bacterial cell detection and recovery",
+              "normalized50": "Magnetic nanoparticle DNA labeling for individual bacterial cell detection and recovery"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Magnetic nanoparticle DNA labeling for individual bacterial cell detection and recovery",
+              "normalized": "Magnetic nanoparticle DNA labeling for individual bacterial cell detection and recovery",
+              "normalized50": "Magnetic nanoparticle DNA labeling for individual bacterial cell detection and recovery"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Pivetal Jérémy Ciuta Georgeta Frenea-Robin Marie",
+              "normalized": "Pivetal Jérémy Ciuta Georgeta Frenea-Robin Marie"
+            },
+            "authorFull": {
+              "value": "Pivetal Jérémy Ciuta Georgeta Frenea-Robin Marie Haddour Naoufel Dempsey Nora M. Dumas-Bouchiat Frédéric Simonet Pascal",
+              "normalized": "Pivetal Jérémy Ciuta Georgeta Frenea-Robin Marie Haddour Naoufel Dempsey Nora M. Dumas-Bouchiat Frédéric Simonet Pascal"
+            },
+            "authorInit": {
+              "value": "Pivetal J  Ciuta G  Frenea-Robin M",
+              "normalized": "Pivetal J  Ciuta G  Frenea-Robin M"
+            },
+            "issn": {
+              "value": "0167-7012",
+              "normalized": "0167-7012"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1016/j.mimet.2014.09.006",
+              "normalized": "10.1016/j.mimet.2014.09.006"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "84-91",
+              "normalized": "84-91"
+            },
+            "volume": {
+              "value": "107",
+              "normalized": "107"
+            },
+            "idHal": {
+              "value": "hal-01113982",
+              "normalized": "hal-01113982"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "416338"
+              },
+              {
+                "value": "555911"
+              },
+              {
+                "value": "1020116"
+              },
+              {
+                "value": "430444"
+              },
+              {
+                "value": "1125749"
+              },
+              {
+                "value": "555557"
+              },
+              {
+                "value": "1097809"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014-12",
+              "normalized": "2014-12"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of Microbiological Methods",
+              "normalized": "Journal of Microbiological Methods"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01113982.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "MedbJQ9n5PzhpLNBEik4R0WGh",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:MedbJQ9n5PzhpLNBEik4R0WGh!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      },
+      {
+        "_index": "tests-select",
+        "_type": "record",
+        "_id": "YXDFrmUB0Kz-zB-OMULl",
+        "_score": 1.0,
+        "_source": {
+          "jsonObject": {
+            "creationDate": "2018-03-27 08:23:48",
+            "title": {
+              "value": "Two-photon lithography in visible and NIR ranges using multibranched-based sensitizers for efficient acid generation",
+              "normalized": "Two-photon lithography in visible and NIR ranges using multibranched-based sensitizers for efficient acid generation",
+              "normalized50": "Two-photon lithography in visible and NIR ranges using multibranched-based sensitizers for efficient acid generation"
+            },
+            "titlefr": {
+              "value": ""
+            },
+            "titleen": {
+              "value": "Two-photon lithography in visible and NIR ranges using multibranched-based sensitizers for efficient acid generation",
+              "normalized": "Two-photon lithography in visible and NIR ranges using multibranched-based sensitizers for efficient acid generation",
+              "normalized50": "Two-photon lithography in visible and NIR ranges using multibranched-based sensitizers for efficient acid generation"
+            },
+            "meetingTitle": {
+              "value": ""
+            },
+            "author": {
+              "value": "Jin M. Xie J. Malval J.P.",
+              "normalized": "Jin M. Xie J. Malval J.P."
+            },
+            "authorFull": {
+              "value": "Jin M. Xie J. Malval J.P. Spangenberg A. Soppera O. Versace D.L. Leclerc T. Pan H. Wan D. Pu H. Baldeck Patrice Poizat O. Knopf S.",
+              "normalized": "Jin M. Xie J. Malval J.P. Spangenberg A. Soppera O. Versace D.L. Leclerc T. Pan H. Wan D. Pu H. Baldeck Patrice Poizat O. Knopf S."
+            },
+            "authorInit": {
+              "value": "Xie J  Spangenberg A  Soppera O",
+              "normalized": "Xie J  Spangenberg A  Soppera O"
+            },
+            "issn": {
+              "value": "2050-7526",
+              "normalized": "2050-7526"
+            },
+            "eissn": {
+              "value": ""
+            },
+            "isbn": {
+              "value": ""
+            },
+            "doi": {
+              "value": "10.1039/C4TC00706A",
+              "normalized": "10.1039/C4TC00706A"
+            },
+            "hasDoi": true,
+            "ut": {
+              "value": ""
+            },
+            "ppn": {
+              "value": ""
+            },
+            "arxiv": {
+              "value": ""
+            },
+            "pubmedId": {
+              "value": ""
+            },
+            "nnt": {
+              "value": ""
+            },
+            "patentNumber": {
+              "value": ""
+            },
+            "issue": {
+              "value": ""
+            },
+            "meetAbstrNo": {
+              "value": ""
+            },
+            "page": {
+              "value": "7201 - 7215",
+              "normalized": "7201 - 7215"
+            },
+            "volume": {
+              "value": "2",
+              "normalized": "2"
+            },
+            "idHal": {
+              "value": "hal-01087208",
+              "normalized": "hal-01087208"
+            },
+            "idProdinra": {
+              "value": ""
+            },
+            "halAutorId": [
+              {
+                "value": "1069901"
+              },
+              {
+                "value": "78406"
+              },
+              {
+                "value": "536997"
+              },
+              {
+                "value": "688043"
+              },
+              {
+                "value": "630292"
+              },
+              {
+                "value": "630291"
+              },
+              {
+                "value": "1069902"
+              },
+              {
+                "value": "313755"
+              },
+              {
+                "value": "642224"
+              },
+              {
+                "value": "642225"
+              },
+              {
+                "value": "241865"
+              },
+              {
+                "value": "148745"
+              },
+              {
+                "value": "1069903"
+              }
+            ],
+            "orcId": {
+              "value": ""
+            },
+            "researcherId": [],
+            "viaf": [],
+            "publicationDate": {
+              "value": "2014",
+              "normalized": "2014"
+            },
+            "titreSourceM": {
+              "value": ""
+            },
+            "titreSourceJ": {
+              "value": "Journal of Materials Chemistry C",
+              "normalized": "Journal of Materials Chemistry C"
+            },
+            "typeDocument": [
+              {
+                "value": "ART"
+              }
+            ],
+            "typeDocumentFlat": [
+              "ART"
+            ],
+            "isni": {
+              "value": ""
+            },
+            "artNo": {
+              "value": ""
+            },
+            "articleNo": {
+              "value": ""
+            },
+            "bibCode": {
+              "value": ""
+            },
+            "eisbn": {
+              "value": ""
+            },
+            "ensam": {
+              "value": ""
+            },
+            "ineris": {
+              "value": ""
+            },
+            "inspire": {
+              "value": ""
+            },
+            "ird": {
+              "value": ""
+            },
+            "irstea": {
+              "value": ""
+            },
+            "localRef": {
+              "value": ""
+            },
+            "oatao": {
+              "value": ""
+            },
+            "okina": {
+              "value": ""
+            },
+            "otherNumber": {
+              "value": ""
+            },
+            "pubmedCentral": {
+              "value": ""
+            },
+            "sciencespo": {
+              "value": ""
+            },
+            "reportNumber": {
+              "value": ""
+            },
+            "cern": {
+              "value": ""
+            },
+            "path": "/applis/conditor/home/input/hal/HAL_2018-03-27_1/2500-tei-hal/hal-01087208.xml",
+            "source": "hal",
+            "typeConditor": [
+              {
+                "value": "Article",
+                "raw": "Article"
+              }
+            ],
+            "idConditor": "kyYCWZfaIIBh59nv0yXbpAJ_o",
+            "ingestId": "HAL_2018-03-27_1",
+            "isDeduplicable": true,
+            "idChain": "hal:kyYCWZfaIIBh59nv0yXbpAJ_o!",
+            "duplicate": [],
+            "isDuplicate": false
+          }
+        }
+      }
+    ]
+  }
+}
