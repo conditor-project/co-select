@@ -19,10 +19,10 @@ describe(pkg.name + '/lib/elasticsearch-stream.js', function () {
     });
 
     elasticsearchStream.on('data', (data) => {
-      expect(data).to.include.keys('idConditor');
-      expect(data).to.include.keys('typeConditor');
-      expect(data).to.include.keys('source');
-      expect(data).to.include.keys('isDuplicate');
+      expect(data.jsonObject).to.include.keys('idConditor');
+      expect(data.jsonObject).to.include.keys('typeConditor');
+      expect(data.jsonObject).to.include.keys('source');
+      expect(data.jsonObject).to.include.keys('isDuplicate');
     });
     elasticsearchStream.on('error', (error) => done(error));
     elasticsearchStream.on('end', () => done());
