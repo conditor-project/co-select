@@ -4,7 +4,7 @@
   "description": "Module permettant la génération d'un flux à partir d'une requête elasticSearch",
   "main": "index.js",
   "dependencies": {
-    "co-config": "git+https://github.com/conditor-project/co-config.git",
+    "co-config": "git+https://github.com/conditor-project/co-config.git#v1.1.0",
     "elasticsearch": "^15.1.1",
     "fs-extra": "^7.0.0",
     "redis": "^2.8.0",
