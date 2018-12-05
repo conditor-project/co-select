@@ -12,11 +12,13 @@ const esConf = require('co-config/es.js');
 esConf.index = `tests-co-select-${Date.now()}`;
 const esMapping = require('co-config/mapping.json');
 const readline = require('readline');
+const clone = require('lodash.clone');
+
 
 describe(pkg.name + '/index.js', function () {
   describe('doTheJob', function () {
     before((done) => {
-      const esClient = elasticsearch.Client();
+      const esClient = elasticsearch.Client(clone(esConf));
       const instream = fs.createReadStream(path.join(__dirname, 'dataset', 'in', 'doc100.json'));
       const rl = readline.createInterface(instream);
       const docs = [];
@@ -57,7 +59,7 @@ describe(pkg.name + '/index.js', function () {
     });
 
     after((done) => {
-      const esClient = elasticsearch.Client();
+      const esClient = elasticsearch.Client(clone(esConf));
       esClient.indices.delete({ index: esConf.index })
         .then(() => fse.removeSync(path.join(__dirname, '/../out')))
         .then(() => {
