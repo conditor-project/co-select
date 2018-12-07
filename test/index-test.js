@@ -13,11 +13,12 @@ esConf.index = `tests-co-select-${Date.now()}`;
 const esMapping = require('co-config/mapping.json');
 const readline = require('readline');
 const clone = require('lodash.clone');
-
+const Promise = require('bluebird');
 
 describe(pkg.name + '/index.js', function () {
   describe('doTheJob', function () {
-    before((done) => {
+    before(function (done) {
+      this.timeout(0);
       const esClient = elasticsearch.Client(clone(esConf));
       const instream = fs.createReadStream(path.join(__dirname, 'dataset', 'in', 'doc100.json'));
       const rl = readline.createInterface(instream);
@@ -38,6 +39,7 @@ describe(pkg.name + '/index.js', function () {
       rl.on('close', () => {
         esClient.indices.create({ index: esConf.index, body: esMapping })
           .then(() => esClient.bulk({ body: docs }))
+          .then(() => Promise.delay(2000))
           .then(() => done())
           .catch(error => done(error));
       });
