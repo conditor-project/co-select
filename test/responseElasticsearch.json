@@ -34,15 +34,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Rechfeld Florian Gruber Peter Kirchmair Johannes",
             "normalized": "Rechfeld Florian Gruber Peter Kirchmair Johannes"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Rechfeld Florian Gruber Peter Kirchmair Johannes Boehler Markus Hauser Nina Hechenberger Georg Garczarczyk Dorota Lapa Gennady B Preobrazhenskaya Maria N Goekjian Peter Langer Thierry Hofmann Johann",
             "normalized": "Rechfeld Florian Gruber Peter Kirchmair Johannes Boehler Markus Hauser Nina Hechenberger Georg Garczarczyk Dorota Lapa Gennady B Preobrazhenskaya Maria N Goekjian Peter Langer Thierry Hofmann Johann"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Rechfeld F  Gruber P  Kirchmair J",
             "normalized": "Rechfeld F  Gruber P  Kirchmair J"
           },
@@ -62,7 +62,7 @@
             "normalized": "10.1021/jm401605c"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -88,7 +88,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "3235-46",
             "normalized": "3235-46"
           },
@@ -157,7 +157,7 @@
             "value": "Journal of Medicinal Chemistry",
             "normalized": "Journal of Medicinal Chemistry"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -171,7 +171,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -229,10 +229,10 @@
             }
           ],
           "idConditor": "rYE8pnLHilBMHZw5ZAlnyT1e1",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:rYE8pnLHilBMHZw5ZAlnyT1e1!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -259,15 +259,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Ming Yue Grabot Bernard Houé Raymond",
             "normalized": "Ming Yue Grabot Bernard Houé Raymond"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Ming Yue Grabot Bernard Houé Raymond",
             "normalized": "Ming Yue Grabot Bernard Houé Raymond"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Ming Y  Grabot B  Houé R",
             "normalized": "Ming Y  Grabot B  Houé R"
           },
@@ -286,7 +286,7 @@
             "normalized": "10.1016/j.cie.2013.10.012"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -310,7 +310,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "pp. 56-71",
             "normalized": "pp. 56-71"
           },
@@ -352,7 +352,7 @@
             "value": "Computers and Industrial Engineering",
             "normalized": "Computers and Industrial Engineering"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -366,7 +366,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -424,10 +424,10 @@
             }
           ],
           "idConditor": "nR8sjYB2bZJ6StY_7sUyEfxSN",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:nR8sjYB2bZJ6StY_7sUyEfxSN!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -454,15 +454,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Nguyen Bao Le Caer Jean-Pierre Aráoz Romulo",
             "normalized": "Nguyen Bao Le Caer Jean-Pierre Aráoz Romulo"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Nguyen Bao Le Caer Jean-Pierre Aráoz Romulo Thai Robert Lamthanh Hung Benoit Evelyne Molgó Jordi",
             "normalized": "Nguyen Bao Le Caer Jean-Pierre Aráoz Romulo Thai Robert Lamthanh Hung Benoit Evelyne Molgó Jordi"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Nguyen B  Le Caer J-P  Aráoz R",
             "normalized": "Nguyen B  Le Caer J-P  Aráoz R"
           },
@@ -481,7 +481,7 @@
             "value": ""
           },
           "hasDoi": false,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -506,7 +506,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "1551-63",
             "normalized": "1551-63"
           },
@@ -560,7 +560,7 @@
             "value": "Toxicon",
             "normalized": "Toxicon"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -574,7 +574,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -632,10 +632,10 @@
             }
           ],
           "idConditor": "ZKldwibMPLL6wSEnUKAxZGYCa",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:ZKldwibMPLL6wSEnUKAxZGYCa!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -662,15 +662,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Bocher Pierrick Robin Frédéric Kojadinovic Jessica",
             "normalized": "Bocher Pierrick Robin Frédéric Kojadinovic Jessica"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Bocher Pierrick Robin Frédéric Kojadinovic Jessica Delaporte Philippe Rousseau Pierre Christine Dupuy Bustamante Paco",
             "normalized": "Bocher Pierrick Robin Frédéric Kojadinovic Jessica Delaporte Philippe Rousseau Pierre Christine Dupuy Bustamante Paco"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Robin F  Kojadinovic J  Delaporte P",
             "normalized": "Robin F  Kojadinovic J  Delaporte P"
           },
@@ -689,7 +689,7 @@
             "normalized": "10.1016/j.seares.2014.02.011"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -713,7 +713,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "115-124",
             "normalized": "115-124"
           },
@@ -772,7 +772,7 @@
             "value": "Journal of Sea Research",
             "normalized": "Journal of Sea Research"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -786,7 +786,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -843,10 +843,10 @@
             }
           ],
           "idConditor": "PW38louFGKf58WBZ78boTLauI",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:PW38louFGKf58WBZ78boTLauI!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -874,15 +874,15 @@
             "value": "11th International Conference on Technology of Plasticity, ICTP 2014",
             "normalized": "11th International Conference on Technology of Plasticity, ICTP 2014"
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Saby Michel Bernacki Marc Bouchard Pierre-Olivier",
             "normalized": "Saby Michel Bernacki Marc Bouchard Pierre-Olivier"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Saby Michel Bernacki Marc Bouchard Pierre-Olivier",
             "normalized": "Saby Michel Bernacki Marc Bouchard Pierre-Olivier"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Saby M  Bernacki M",
             "normalized": "Saby M  Bernacki M"
           },
@@ -900,7 +900,7 @@
             "normalized": "10.1016/j.proeng.2014.09.140"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -924,7 +924,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "137–142",
             "normalized": "137–142"
           },
@@ -967,7 +967,7 @@
           "titreSourceJ": {
             "value": ""
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "COMM"
             }
@@ -981,7 +981,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -1038,10 +1038,10 @@
             }
           ],
           "idConditor": "YRNc0jDNRporepDO8nViLW01_",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:YRNc0jDNRporepDO8nViLW01_!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -1068,15 +1068,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Djaker Nadia Brustlein S. Rohman Geraldine",
             "normalized": "Djaker Nadia Brustlein S. Rohman Geraldine"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Djaker Nadia Brustlein S. Rohman Geraldine Huot Stéphane Lamy De La Chapelle Marc MIGONNEY Véronique",
             "normalized": "Djaker Nadia Brustlein S. Rohman Geraldine Huot Stéphane Lamy De La Chapelle Marc MIGONNEY Véronique"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Djaker N  Brustlein S  Rohman G",
             "normalized": "Djaker N  Brustlein S  Rohman G"
           },
@@ -1096,7 +1096,7 @@
             "normalized": "10.1364/BOE.5.000149"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -1121,7 +1121,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "149-157",
             "normalized": "149-157"
           },
@@ -1172,7 +1172,7 @@
             "value": "Biomedical optics express",
             "normalized": "Biomedical optics express"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -1186,7 +1186,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -1243,10 +1243,10 @@
             }
           ],
           "idConditor": "pXD8fc0PeBtm0vdx_rdBfaCls",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:pXD8fc0PeBtm0vdx_rdBfaCls!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -1273,15 +1273,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Dianne Lucile Perrot-Minnot Marie-Jeanne Bauer Alexandre",
             "normalized": "Dianne Lucile Perrot-Minnot Marie-Jeanne Bauer Alexandre"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Dianne Lucile Perrot-Minnot Marie-Jeanne Bauer Alexandre Guvenatam Arnaud Rigaud Thierry",
             "normalized": "Dianne Lucile Perrot-Minnot Marie-Jeanne Bauer Alexandre Guvenatam Arnaud Rigaud Thierry"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Dianne L  Perrot-Minnot M-J  Bauer A",
             "normalized": "Dianne L  Perrot-Minnot M-J  Bauer A"
           },
@@ -1300,7 +1300,7 @@
             "normalized": "10.1016/j.ijpara.2013.11.001"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -1326,7 +1326,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "211-216",
             "normalized": "211-216"
           },
@@ -1374,7 +1374,7 @@
             "value": "International Journal for Parasitology",
             "normalized": "International Journal for Parasitology"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -1388,7 +1388,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -1445,10 +1445,10 @@
             }
           ],
           "idConditor": "KvyQubQsy25zaMLhOks0nmnkd",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:KvyQubQsy25zaMLhOks0nmnkd!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -1475,15 +1475,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Le Cunff Yann Pakdaman Khashayar",
             "normalized": "Le Cunff Yann Pakdaman Khashayar"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Le Cunff Yann Pakdaman Khashayar",
             "normalized": "Le Cunff Yann Pakdaman Khashayar"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Pakdaman K",
             "normalized": "Pakdaman K"
           },
@@ -1503,7 +1503,7 @@
             "normalized": "10.1016/j.jtbi.2014.07.008"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -1528,7 +1528,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "263-270",
             "normalized": "263-270"
           },
@@ -1567,7 +1567,7 @@
             "value": "Journal of Theoretical Biology",
             "normalized": "Journal of Theoretical Biology"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -1581,7 +1581,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -1639,10 +1639,10 @@
             }
           ],
           "idConditor": "tmyVyQJHXF0rD9F_xjjTiWMe1",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:tmyVyQJHXF0rD9F_xjjTiWMe1!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -1669,15 +1669,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Le Fur Soizic Fara Emmanuel Mackaye Hassane Taïsso",
             "normalized": "Le Fur Soizic Fara Emmanuel Mackaye Hassane Taïsso"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Le Fur Soizic Fara Emmanuel Mackaye Hassane Taïsso Vignaud Patrick Brunet Michel",
             "normalized": "Le Fur Soizic Fara Emmanuel Mackaye Hassane Taïsso Vignaud Patrick Brunet Michel"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Fara E  Mackaye HT  Vignaud P",
             "normalized": "Fara E  Mackaye HT  Vignaud P"
           },
@@ -1697,7 +1697,7 @@
             "normalized": "10.1016/j.jhevol.2013.09.012"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -1722,7 +1722,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "79-90",
             "normalized": "79-90"
           },
@@ -1770,7 +1770,7 @@
             "value": "Journal of Human Evolution",
             "normalized": "Journal of Human Evolution"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -1784,7 +1784,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -1841,10 +1841,10 @@
             }
           ],
           "idConditor": "n3QdGCEilSLamPcebbvwbn6rI",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:n3QdGCEilSLamPcebbvwbn6rI!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -1871,15 +1871,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Lott B. Cohen D. P. Romani Roger W.",
             "normalized": "Lott B. Cohen D. P. Romani Roger W."
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Lott B. Cohen D. P. Romani Roger W. Filippenko Alexei V. Cenko S. Bradley Zheng WeiKang Li Weidong",
             "normalized": "Lott B. Cohen D. P. Romani Roger W. Filippenko Alexei V. Cenko S. Bradley Zheng WeiKang Li Weidong"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Lott B  Cohen DP  Romani RW",
             "normalized": "Lott B  Cohen DP  Romani RW"
           },
@@ -1899,7 +1899,7 @@
             "normalized": "10.1088/0004-637X/797/2/137"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -1923,7 +1923,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "137",
             "normalized": "137"
           },
@@ -1977,7 +1977,7 @@
             "value": "Astrophysical Journal",
             "normalized": "Astrophysical Journal"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -1991,7 +1991,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -2049,10 +2049,10 @@
             }
           ],
           "idConditor": "S0oScsHMg9H4_KKaalS8Emc0Z",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:S0oScsHMg9H4_KKaalS8Emc0Z!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -2079,15 +2079,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "RIO Maud Reyes Tatiana Roucoules Lionel",
             "normalized": "RIO Maud Reyes Tatiana Roucoules Lionel"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "RIO Maud Reyes Tatiana Roucoules Lionel",
             "normalized": "RIO Maud Reyes Tatiana Roucoules Lionel"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "RIO M  Reyes T  Roucoules L",
             "normalized": "RIO M  Reyes T  Roucoules L"
           },
@@ -2106,7 +2106,7 @@
             "normalized": "10.1016/j.jclepro.2014.07.019"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -2130,7 +2130,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "329-340",
             "normalized": "329-340"
           },
@@ -2173,7 +2173,7 @@
             "value": "Journal of Cleaner Production",
             "normalized": "Journal of Cleaner Production"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -2187,7 +2187,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -2244,10 +2244,10 @@
             }
           ],
           "idConditor": "GR3e1sEVQ9nfqR65hxw_k1XSP",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:GR3e1sEVQ9nfqR65hxw_k1XSP!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -2275,15 +2275,15 @@
             "value": "IPDPS 2014 : 28th IEEE International Parallel & Distributed Processing Symposium",
             "normalized": "IPDPS 2014 : 28th IEEE International Parallel & Distributed Processing Symposium"
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Mezmaz Mohand Leroy Rudi Melab Nouredine",
             "normalized": "Mezmaz Mohand Leroy Rudi Melab Nouredine"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Mezmaz Mohand Leroy Rudi Melab Nouredine Tuyttens Daniel",
             "normalized": "Mezmaz Mohand Leroy Rudi Melab Nouredine Tuyttens Daniel"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Mezmaz M  Leroy R  Melab N",
             "normalized": "Mezmaz M  Leroy R  Melab N"
           },
@@ -2301,7 +2301,7 @@
             "normalized": "10.1109/IPDPS.2014.124"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -2325,7 +2325,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": ""
           },
           "volume": {
@@ -2367,7 +2367,7 @@
           "titreSourceJ": {
             "value": ""
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "COMM"
             }
@@ -2381,7 +2381,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -2438,10 +2438,10 @@
             }
           ],
           "idConditor": "ydQGAXd0AxSDTa0zJHICpz6c1",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:ydQGAXd0AxSDTa0zJHICpz6c1!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -2468,15 +2468,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Bank Bernd Giusti Marc Heintz Joos",
             "normalized": "Bank Bernd Giusti Marc Heintz Joos"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Bank Bernd Giusti Marc Heintz Joos Safey El Din Mohab",
             "normalized": "Bank Bernd Giusti Marc Heintz Joos Safey El Din Mohab"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Bank B  Giusti M  Heintz J",
             "normalized": "Bank B  Giusti M  Heintz J"
           },
@@ -2496,7 +2496,7 @@
             "normalized": "10.1016/j.jco.2014.02.005"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -2522,7 +2522,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "430-443",
             "normalized": "430-443"
           },
@@ -2567,7 +2567,7 @@
             "value": "Journal of Complexity",
             "normalized": "Journal of Complexity"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -2581,7 +2581,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -2638,10 +2638,10 @@
             }
           ],
           "idConditor": "r6ePzGnxu60ZSlBYNNP8Uxoh4",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:r6ePzGnxu60ZSlBYNNP8Uxoh4!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -2668,15 +2668,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Benakli Karim Oz Yaron Policastro Giuseppe",
             "normalized": "Benakli Karim Oz Yaron Policastro Giuseppe"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Benakli Karim Oz Yaron Policastro Giuseppe",
             "normalized": "Benakli Karim Oz Yaron Policastro Giuseppe"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Benakli K  Oz Y  Policastro G",
             "normalized": "Benakli K  Oz Y  Policastro G"
           },
@@ -2696,7 +2696,7 @@
             "normalized": "10.1007/JHEP02(2014)015"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -2721,7 +2721,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "015",
             "normalized": "015"
           },
@@ -2763,7 +2763,7 @@
             "value": "Journal of High Energy Physics",
             "normalized": "Journal of High Energy Physics"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -2777,7 +2777,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -2834,10 +2834,10 @@
             }
           ],
           "idConditor": "aVjbh_ld6iMs3jzMZ58wDEWon",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:aVjbh_ld6iMs3jzMZ58wDEWon!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -2864,15 +2864,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Hirn Matthew Le Gruyer Erwan",
             "normalized": "Hirn Matthew Le Gruyer Erwan"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Hirn Matthew Le Gruyer Erwan",
             "normalized": "Hirn Matthew Le Gruyer Erwan"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": ""
           },
           "issn": {
@@ -2891,7 +2891,7 @@
             "normalized": "10.1007/s00208-013-1003-5"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -2916,7 +2916,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "595-628",
             "normalized": "595-628"
           },
@@ -2955,7 +2955,7 @@
             "value": "Mathematische Annalen",
             "normalized": "Mathematische Annalen"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -2969,7 +2969,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -3026,10 +3026,10 @@
             }
           ],
           "idConditor": "lWUBZwONl3kaDB6NAGzYo8YzR",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:lWUBZwONl3kaDB6NAGzYo8YzR!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -3056,15 +3056,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Dolega Monika E Wagh Jayesh Gerbaud Sophie",
             "normalized": "Dolega Monika E Wagh Jayesh Gerbaud Sophie"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Dolega Monika E Wagh Jayesh Gerbaud Sophie Kermarrec Frederique Alcaraz Jean-Pierre Martin Donald K Gidrol Xavier Picollet-D'Hahan Nathalie",
             "normalized": "Dolega Monika E Wagh Jayesh Gerbaud Sophie Kermarrec Frederique Alcaraz Jean-Pierre Martin Donald K Gidrol Xavier Picollet-D'Hahan Nathalie"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Dolega ME  Wagh J  Gerbaud S",
             "normalized": "Dolega ME  Wagh J  Gerbaud S"
           },
@@ -3083,7 +3083,7 @@
             "normalized": "10.1371/journal.pone.0099416"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -3109,7 +3109,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "e99416",
             "normalized": "e99416"
           },
@@ -3166,7 +3166,7 @@
             "value": "PLoS ONE",
             "normalized": "PLoS ONE"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -3180,7 +3180,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -3237,10 +3237,10 @@
             }
           ],
           "idConditor": "ZbEtWHEoP7XszJrEHWYEHj1j4",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:ZbEtWHEoP7XszJrEHWYEHj1j4!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -3267,15 +3267,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Bundeleva Irina A. Shirokova Liudmila S. Pokrovsky Oleg S.",
             "normalized": "Bundeleva Irina A. Shirokova Liudmila S. Pokrovsky Oleg S."
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Bundeleva Irina A. Shirokova Liudmila S. Pokrovsky Oleg S. Bénézeth Pascale Ménez Bénédicte Gérard Emmanuelle Balor Stéphanie",
             "normalized": "Bundeleva Irina A. Shirokova Liudmila S. Pokrovsky Oleg S. Bénézeth Pascale Ménez Bénédicte Gérard Emmanuelle Balor Stéphanie"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Bundeleva IA  Shirokova LS  Bénézeth P",
             "normalized": "Bundeleva IA  Shirokova LS  Bénézeth P"
           },
@@ -3294,7 +3294,7 @@
             "normalized": "10.1016/j.chemgeo.2014.03.007"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -3318,7 +3318,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "44-60",
             "normalized": "44-60"
           },
@@ -3372,7 +3372,7 @@
             "value": "Chemical Geology",
             "normalized": "Chemical Geology"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -3386,7 +3386,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -3443,10 +3443,10 @@
             }
           ],
           "idConditor": "lU4W7x7VsSxbTBWMx4sgqfCrD",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:lU4W7x7VsSxbTBWMx4sgqfCrD!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -3474,15 +3474,15 @@
             "value": "FVCA7 - The International Symposium of Finite Volumes for Complex Applications VII",
             "normalized": "FVCA7 - The International Symposium of Finite Volumes for Complex Applications VII"
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Eymard Robert Guichard Cindy Masson Roland",
             "normalized": "Eymard Robert Guichard Cindy Masson Roland"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Eymard Robert Guichard Cindy Masson Roland",
             "normalized": "Eymard Robert Guichard Cindy Masson Roland"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Eymard R  Guichard C  Masson R",
             "normalized": "Eymard R  Guichard C  Masson R"
           },
@@ -3500,7 +3500,7 @@
             "normalized": "10.1007/978-3-319-05591-6_55"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -3524,7 +3524,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": ""
           },
           "volume": {
@@ -3562,7 +3562,7 @@
           "titreSourceJ": {
             "value": ""
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "COMM"
             }
@@ -3576,7 +3576,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -3633,10 +3633,10 @@
             }
           ],
           "idConditor": "E6MfhQQWvpYri8DS1Lr5IwPeV",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:E6MfhQQWvpYri8DS1Lr5IwPeV!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -3663,15 +3663,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Boutoux Alexandre Verlaguet Anne Bellahsen Nicolas",
             "normalized": "Boutoux Alexandre Verlaguet Anne Bellahsen Nicolas"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Boutoux Alexandre Verlaguet Anne Bellahsen Nicolas Lacombe Olivier Villemant Benoît Caron Benoît Martin Erwan Assayag Nelly Cartigny Pierre",
             "normalized": "Boutoux Alexandre Verlaguet Anne Bellahsen Nicolas Lacombe Olivier Villemant Benoît Caron Benoît Martin Erwan Assayag Nelly Cartigny Pierre"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Boutoux A  Verlaguet A  Bellahsen N",
             "normalized": "Boutoux A  Verlaguet A  Bellahsen N"
           },
@@ -3690,7 +3690,7 @@
             "normalized": "10.1016/j.lithos.2014.07.005"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -3714,7 +3714,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "435-453",
             "normalized": "435-453"
           },
@@ -3775,7 +3775,7 @@
             "value": "Lithos",
             "normalized": "Lithos"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -3789,7 +3789,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -3846,10 +3846,10 @@
             }
           ],
           "idConditor": "Kkj_FHXIBt0CRdbwFlysSLybm",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:Kkj_FHXIBt0CRdbwFlysSLybm!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -3877,15 +3877,15 @@
             "value": "Proc. SPIE 9085, Sensors and Systems for Space Applications VII",
             "normalized": "Proc. SPIE 9085, Sensors and Systems for Space Applications VII"
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Meftah Mustapha Irbah Abdanour Damé Luc",
             "normalized": "Meftah Mustapha Irbah Abdanour Damé Luc"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Meftah Mustapha Irbah Abdanour Damé Luc Hauchecorne Alain Sarkissian Alain Keckhut Philippe Lagage P.-O. Dewitte S. Chevalier A.",
             "normalized": "Meftah Mustapha Irbah Abdanour Damé Luc Hauchecorne Alain Sarkissian Alain Keckhut Philippe Lagage P.-O. Dewitte S. Chevalier A."
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Meftah M  Irbah A  Damé L",
             "normalized": "Meftah M  Irbah A  Damé L"
           },
@@ -3903,7 +3903,7 @@
             "normalized": "10.1117/12.2050134"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -3927,7 +3927,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "90850Y",
             "normalized": "90850Y"
           },
@@ -3986,7 +3986,7 @@
           "titreSourceJ": {
             "value": ""
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "COMM"
             }
@@ -4000,7 +4000,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -4058,10 +4058,10 @@
             }
           ],
           "idConditor": "lyP1TWbpilAU6tGx5Mta9nbLl",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:lyP1TWbpilAU6tGx5Mta9nbLl!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -4088,15 +4088,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Kan-Hao Xue Nguyen Tron-Khoa Franco Alejandro A.",
             "normalized": "Kan-Hao Xue Nguyen Tron-Khoa Franco Alejandro A."
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Kan-Hao Xue Nguyen Tron-Khoa Franco Alejandro A.",
             "normalized": "Kan-Hao Xue Nguyen Tron-Khoa Franco Alejandro A."
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Kan-Hao X  Nguyen T-K  Franco AA",
             "normalized": "Kan-Hao X  Nguyen T-K  Franco AA"
           },
@@ -4114,7 +4114,7 @@
             "value": ""
           },
           "hasDoi": false,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -4138,7 +4138,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "E3028-E3035",
             "normalized": "E3028-E3035"
           },
@@ -4180,7 +4180,7 @@
             "value": "Journal of The Electrochemical Society",
             "normalized": "Journal of The Electrochemical Society"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -4194,7 +4194,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -4251,10 +4251,10 @@
             }
           ],
           "idConditor": "KWNxm_389zSKLm5vrvYNjKqrk",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:KWNxm_389zSKLm5vrvYNjKqrk!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -4281,15 +4281,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Gust Marion Gagné Francois Berlioz-Barbier Alexandra",
             "normalized": "Gust Marion Gagné Francois Berlioz-Barbier Alexandra"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Gust Marion Gagné Francois Berlioz-Barbier Alexandra Besse J.P. Buronfosse Thierry Tournier Mikaël Tutundjian Renaud Garric Jeanne Cren-Olivé Cécile",
             "normalized": "Gust Marion Gagné Francois Berlioz-Barbier Alexandra Besse J.P. Buronfosse Thierry Tournier Mikaël Tutundjian Renaud Garric Jeanne Cren-Olivé Cécile"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Gust M  Gagné F  Berlioz-Barbier A",
             "normalized": "Gust M  Gagné F  Berlioz-Barbier A"
           },
@@ -4308,7 +4308,7 @@
             "normalized": "10.1016/j.watres.2014.01.057"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -4332,7 +4332,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "222-236",
             "normalized": "222-236"
           },
@@ -4392,7 +4392,7 @@
             "value": "Water Research",
             "normalized": "Water Research"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -4406,7 +4406,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -4463,10 +4463,10 @@
             }
           ],
           "idConditor": "7wf8nrWJgqxCN5jyHBFLrUayQ",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:7wf8nrWJgqxCN5jyHBFLrUayQ!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -4493,15 +4493,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Le Van Luong Lauer Fabien Bloch Gérard",
             "normalized": "Le Van Luong Lauer Fabien Bloch Gérard"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Le Van Luong Lauer Fabien Bloch Gérard",
             "normalized": "Le Van Luong Lauer Fabien Bloch Gérard"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Le VL  Lauer F  Bloch G",
             "normalized": "Le VL  Lauer F  Bloch G"
           },
@@ -4520,7 +4520,7 @@
             "normalized": "10.1109/TAC.2014.2351694"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -4545,7 +4545,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "3008-3013",
             "normalized": "3008-3013"
           },
@@ -4587,7 +4587,7 @@
             "value": "IEEE Transactions on Automatic Control",
             "normalized": "IEEE Transactions on Automatic Control"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -4601,7 +4601,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -4659,10 +4659,10 @@
             }
           ],
           "idConditor": "SOIS0tarJH9RKmgvfuuYm6fKq",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:SOIS0tarJH9RKmgvfuuYm6fKq!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -4689,15 +4689,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Pailler A. Vennetier M. Torre F.",
             "normalized": "Pailler A. Vennetier M. Torre F."
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Pailler A. Vennetier M. Torre F. Ripert C. Guiral D.",
             "normalized": "Pailler A. Vennetier M. Torre F. Ripert C. Guiral D."
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Pailler A  Vennetier M  Torre F",
             "normalized": "Pailler A  Vennetier M  Torre F"
           },
@@ -4716,7 +4716,7 @@
             "normalized": "10.1016/j.soilbio.2013.12.003"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -4740,7 +4740,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "p. 1 - p. 4",
             "normalized": "p. 1 - p. 4"
           },
@@ -4793,7 +4793,7 @@
             "value": "Soil Biology and Biochemistry",
             "normalized": "Soil Biology and Biochemistry"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -4807,7 +4807,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -4865,10 +4865,10 @@
             }
           ],
           "idConditor": "GFTxnTA_4NRheY7xBSccomtic",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:GFTxnTA_4NRheY7xBSccomtic!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -4895,15 +4895,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Thomas O. Jung A. V. Causse J.",
             "normalized": "Thomas O. Jung A. V. Causse J."
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Thomas O. Jung A. V. Causse J. Louyer M. V. Piel S. Baurès E. Thomas M. F.",
             "normalized": "Thomas O. Jung A. V. Causse J. Louyer M. V. Piel S. Baurès E. Thomas M. F."
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Thomas O  Jung AV  Causse J",
             "normalized": "Thomas O  Jung AV  Causse J"
           },
@@ -4922,7 +4922,7 @@
             "normalized": "10.1016/j.chemosphere.2014.03.034"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -4947,7 +4947,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "115--120",
             "normalized": "115--120"
           },
@@ -5001,7 +5001,7 @@
             "value": "Chemosphere",
             "normalized": "Chemosphere"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -5015,7 +5015,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -5072,10 +5072,10 @@
             }
           ],
           "idConditor": "K0oNDJgg4_sxsxnJJQo55ePzp",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:K0oNDJgg4_sxsxnJJQo55ePzp!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -5102,15 +5102,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Rau Andrea Marot Guillemette Jaffrézic Florence",
             "normalized": "Rau Andrea Marot Guillemette Jaffrézic Florence"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Rau Andrea Marot Guillemette Jaffrézic Florence",
             "normalized": "Rau Andrea Marot Guillemette Jaffrézic Florence"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Marot G  Jaffrézic F",
             "normalized": "Marot G  Jaffrézic F"
           },
@@ -5129,7 +5129,7 @@
             "normalized": "10.1186/1471-2105-15-91"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -5155,7 +5155,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "91",
             "normalized": "91"
           },
@@ -5197,7 +5197,7 @@
             "value": "BMC Bioinformatics",
             "normalized": "BMC Bioinformatics"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -5211,7 +5211,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -5268,10 +5268,10 @@
             }
           ],
           "idConditor": "eWK4ySmRU8VMSKkclImINac6l",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:eWK4ySmRU8VMSKkclImINac6l!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -5298,15 +5298,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Baures Robin Oberfeld Daniel Tournier Isabelle",
             "normalized": "Baures Robin Oberfeld Daniel Tournier Isabelle"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Baures Robin Oberfeld Daniel Tournier Isabelle Hecht Heiko Cavallo Viola",
             "normalized": "Baures Robin Oberfeld Daniel Tournier Isabelle Hecht Heiko Cavallo Viola"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Baures R  Oberfeld D  Tournier I",
             "normalized": "Baures R  Oberfeld D  Tournier I"
           },
@@ -5325,7 +5325,7 @@
             "normalized": "10.1016/j.aap.2013.12.013"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -5349,7 +5349,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "pp 72-84",
             "normalized": "pp 72-84"
           },
@@ -5397,7 +5397,7 @@
             "value": "Accident Analysis and Prevention",
             "normalized": "Accident Analysis and Prevention"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -5411,7 +5411,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -5468,10 +5468,10 @@
             }
           ],
           "idConditor": "wE0bWIqzR9md2rzfuNePk6E0y",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:wE0bWIqzR9md2rzfuNePk6E0y!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -5498,15 +5498,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Kechadi Mohammed Sotta Bruno Chaal Lila",
             "normalized": "Kechadi Mohammed Sotta Bruno Chaal Lila"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Kechadi Mohammed Sotta Bruno Chaal Lila Tribollet Bernard Gamby Jean",
             "normalized": "Kechadi Mohammed Sotta Bruno Chaal Lila Tribollet Bernard Gamby Jean"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Kechadi M  Sotta B  Chaal L",
             "normalized": "Kechadi M  Sotta B  Chaal L"
           },
@@ -5526,7 +5526,7 @@
             "normalized": "10.1039/c4an00212a"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -5552,7 +5552,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "3115-3121",
             "normalized": "3115-3121"
           },
@@ -5600,7 +5600,7 @@
             "value": "Analyst",
             "normalized": "Analyst"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -5614,7 +5614,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -5672,10 +5672,10 @@
             }
           ],
           "idConditor": "1zVmCGkoEFn6hqsLRfiv1uEWV",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:1zVmCGkoEFn6hqsLRfiv1uEWV!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -5702,15 +5702,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Pivetal Jérémy Ciuta Georgeta Frenea-Robin Marie",
             "normalized": "Pivetal Jérémy Ciuta Georgeta Frenea-Robin Marie"
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Pivetal Jérémy Ciuta Georgeta Frenea-Robin Marie Haddour Naoufel Dempsey Nora M. Dumas-Bouchiat Frédéric Simonet Pascal",
             "normalized": "Pivetal Jérémy Ciuta Georgeta Frenea-Robin Marie Haddour Naoufel Dempsey Nora M. Dumas-Bouchiat Frédéric Simonet Pascal"
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Pivetal J  Ciuta G  Frenea-Robin M",
             "normalized": "Pivetal J  Ciuta G  Frenea-Robin M"
           },
@@ -5729,7 +5729,7 @@
             "normalized": "10.1016/j.mimet.2014.09.006"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -5753,7 +5753,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "84-91",
             "normalized": "84-91"
           },
@@ -5807,7 +5807,7 @@
             "value": "Journal of Microbiological Methods",
             "normalized": "Journal of Microbiological Methods"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -5821,7 +5821,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -5878,10 +5878,10 @@
             }
           ],
           "idConditor": "MedbJQ9n5PzhpLNBEik4R0WGh",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:MedbJQ9n5PzhpLNBEik4R0WGh!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       },
@@ -5908,15 +5908,15 @@
           "meetingTitle": {
             "value": ""
           },
-          "author": {
+          "first3AuthorNames": {
             "value": "Jin M. Xie J. Malval J.P.",
             "normalized": "Jin M. Xie J. Malval J.P."
           },
-          "authorFull": {
+          "authorNames": {
             "value": "Jin M. Xie J. Malval J.P. Spangenberg A. Soppera O. Versace D.L. Leclerc T. Pan H. Wan D. Pu H. Baldeck Patrice Poizat O. Knopf S.",
             "normalized": "Jin M. Xie J. Malval J.P. Spangenberg A. Soppera O. Versace D.L. Leclerc T. Pan H. Wan D. Pu H. Baldeck Patrice Poizat O. Knopf S."
           },
-          "authorInit": {
+          "first3AuthorNamesWithInitials": {
             "value": "Xie J  Spangenberg A  Soppera O",
             "normalized": "Xie J  Spangenberg A  Soppera O"
           },
@@ -5935,7 +5935,7 @@
             "normalized": "10.1039/C4TC00706A"
           },
           "hasDoi": true,
-          "ut": {
+          "utKey": {
             "value": ""
           },
           "ppn": {
@@ -5959,7 +5959,7 @@
           "meetAbstrNo": {
             "value": ""
           },
-          "page": {
+          "pageRange": {
             "value": "7201 - 7215",
             "normalized": "7201 - 7215"
           },
@@ -6031,7 +6031,7 @@
             "value": "Journal of Materials Chemistry C",
             "normalized": "Journal of Materials Chemistry C"
           },
-          "typeDocument": [
+          "documentType": [
             {
               "value": "ART"
             }
@@ -6045,7 +6045,7 @@
           "artNo": {
             "value": ""
           },
-          "articleNo": {
+          "articleNumber": {
             "value": ""
           },
           "bibCode": {
@@ -6102,10 +6102,10 @@
             }
           ],
           "idConditor": "kyYCWZfaIIBh59nv0yXbpAJ_o",
-          "ingestId": "HAL_2018-03-27_1",
+          "sessionName": "HAL_2018-03-27_1",
           "isDeduplicable": true,
           "idChain": "hal:kyYCWZfaIIBh59nv0yXbpAJ_o!",
-          "duplicate": [],
+          "duplicates": [],
           "isDuplicate": false
         }
       }
