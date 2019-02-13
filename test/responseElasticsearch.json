@@ -96,7 +96,7 @@
             "value": "57",
             "normalized": "57"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00990810",
             "normalized": "hal-00990810"
           },
@@ -318,7 +318,7 @@
             "value": "vol. 67",
             "normalized": "vol. 67"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00952728",
             "normalized": "hal-00952728"
           },
@@ -514,7 +514,7 @@
             "value": "91",
             "normalized": "91"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01112222",
             "normalized": "hal-01112222"
           },
@@ -721,7 +721,7 @@
             "value": "92",
             "normalized": "92"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01072993",
             "normalized": "hal-01072993"
           },
@@ -932,7 +932,7 @@
             "value": "81",
             "normalized": "81"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01110919",
             "normalized": "hal-01110919"
           },
@@ -1129,7 +1129,7 @@
             "value": "5",
             "normalized": "5"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00974582",
             "normalized": "hal-00974582"
           },
@@ -1334,7 +1334,7 @@
             "value": "44",
             "normalized": "44"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00957328",
             "normalized": "hal-00957328"
           },
@@ -1536,7 +1536,7 @@
             "value": "360C",
             "normalized": "360C"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01060853",
             "normalized": "hal-01060853"
           },
@@ -1730,7 +1730,7 @@
             "value": "69",
             "normalized": "69"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00978300",
             "normalized": "hal-00978300"
           },
@@ -1931,7 +1931,7 @@
             "value": "797",
             "normalized": "797"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01119034",
             "normalized": "hal-01119034"
           },
@@ -2138,7 +2138,7 @@
             "value": "83",
             "normalized": "83"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01084714",
             "normalized": "hal-01084714"
           },
@@ -2331,7 +2331,7 @@
           "volume": {
             "value": ""
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00934841",
             "normalized": "hal-00934841"
           },
@@ -2530,7 +2530,7 @@
             "value": "30",
             "normalized": "30"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00815123",
             "normalized": "hal-00815123"
           },
@@ -2729,7 +2729,7 @@
             "value": "02",
             "normalized": "02"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00913301",
             "normalized": "hal-00913301"
           },
@@ -2924,7 +2924,7 @@
             "value": "359",
             "normalized": "359"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00758247",
             "normalized": "hal-00758247"
           },
@@ -3117,7 +3117,7 @@
             "value": "9",
             "normalized": "9"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01016403",
             "normalized": "hal-01016403"
           },
@@ -3326,7 +3326,7 @@
             "value": "374-375",
             "normalized": "374-375"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00967924",
             "normalized": "hal-00967924"
           },
@@ -3530,7 +3530,7 @@
           "volume": {
             "value": ""
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00958131",
             "normalized": "hal-00958131"
           },
@@ -3722,7 +3722,7 @@
             "value": "206-207",
             "normalized": "206-207"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01065620",
             "normalized": "hal-01065620"
           },
@@ -3935,7 +3935,7 @@
             "value": "9085",
             "normalized": "9085"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01059499",
             "normalized": "hal-01059499"
           },
@@ -4146,7 +4146,7 @@
             "value": "161",
             "normalized": "161"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00957073",
             "normalized": "hal-00957073"
           },
@@ -4340,7 +4340,7 @@
             "value": "54",
             "normalized": "54"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00991074",
             "normalized": "hal-00991074"
           },
@@ -4553,7 +4553,7 @@
             "value": "59",
             "normalized": "59"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00904836",
             "normalized": "hal-00904836"
           },
@@ -4748,7 +4748,7 @@
             "value": "70",
             "normalized": "70"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00991404",
             "normalized": "hal-00991404"
           },
@@ -4955,7 +4955,7 @@
             "value": "107",
             "normalized": "107"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01063932",
             "normalized": "hal-01063932"
           },
@@ -5163,7 +5163,7 @@
             "value": "15",
             "normalized": "15"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-00978902",
             "normalized": "hal-00978902"
           },
@@ -5357,7 +5357,7 @@
             "value": "65",
             "normalized": "65"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01065173",
             "normalized": "hal-01065173"
           },
@@ -5560,7 +5560,7 @@
             "value": "139",
             "normalized": "139"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01019204",
             "normalized": "hal-01019204"
           },
@@ -5761,7 +5761,7 @@
             "value": "107",
             "normalized": "107"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01113982",
             "normalized": "hal-01113982"
           },
@@ -5967,7 +5967,7 @@
             "value": "2",
             "normalized": "2"
           },
-          "idHal": {
+          "halId": {
             "value": "hal-01087208",
             "normalized": "hal-01087208"
           },
