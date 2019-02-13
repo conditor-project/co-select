@@ -1,6 +1,6 @@
 {
   "name": "co-select",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Module permettant la génération d'un flux à partir d'une requête elasticSearch",
   "main": "index.js",
   "dependencies": {
